@@ -1,0 +1,1207 @@
+Loaded dataset with 9790 rows and 56 unique tasks
+Task: H2AFZ
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.4552 ± 0.0025, Acc: 0.7234 ± 0.0069 (3 replicates)
+    WARNING: Caduceus lr=0.0001 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 8 seeds
+  Caduceus: lr=0.0001 | batch_size=128 | rc_aug=True
+    MCC: 0.4316 ± 0.0035, Acc: 0.7083 ± 0.0012 (7 replicates)
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.4133 ± 0.0073, Acc: 0.7022 ± 0.0035 (13 replicates)
+    WARNING: Mamba-bpe lr=5e-05 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 11 seeds
+  Mamba-bpe: lr=5e-05 | batch_size=128 | rc_aug=True
+    MCC: 0.4047 ± 0.0128, Acc: 0.6926 ± 0.0089 (13 replicates)
+    WARNING: Mamba-char lr=0.001 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Mamba-char lr=0.002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Mamba-char lr=0.01 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+  Mamba-char: lr=0.0005 | batch_size=128 | rc_aug=True
+    MCC: 0.3919 ± 0.0159, Acc: 0.6883 ± 0.0106 (15 replicates)
+
+Task: H3K27ac
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.4093 ± 0.0093, Acc: 0.7042 ± 0.0043 (3 replicates)
+    WARNING: Caduceus lr=0.0001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 4 seeds
+    WARNING: Caduceus lr=0.001 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 9 seeds
+    Note: Choosing alternative with more replicates (MCC diff: 0.0141)
+    Original best: MCC=0.4674 with 3 replicates
+    Selected: MCC=0.4533 with 8 replicates
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.4533 ± 0.0098, Acc: 0.7221 ± 0.0105 (8 replicates)
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+  HyenaDNA: lr=6e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.4213 ± 0.0133, Acc: 0.7072 ± 0.0078 (13 replicates)
+    WARNING: Mamba-bpe lr=5e-05 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-bpe lr=5e-05 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=5e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.3918 ± 0.0157, Acc: 0.6937 ± 0.0059 (12 replicates)
+    WARNING: Mamba-char lr=0.001 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Mamba-char lr=0.002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Mamba-char lr=0.01 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.01 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+  Mamba-char: lr=0.0001 | batch_size=256 | rc_aug=True
+    MCC: 0.4183 ± 0.0130, Acc: 0.7047 ± 0.0108 (15 replicates)
+
+Task: H3K27me3
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.5088 ± 0.0010, Acc: 0.7461 ± 0.0008 (3 replicates)
+    WARNING: Caduceus lr=0.001 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 8 seeds
+    Note: Choosing alternative with more replicates (MCC diff: 0.0013)
+    Original best: MCC=0.5506 with 3 replicates
+    Selected: MCC=0.5493 with 7 replicates
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.5493 ± 0.0094, Acc: 0.7638 ± 0.0083 (7 replicates)
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+  HyenaDNA: lr=6e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.5423 ± 0.0133, Acc: 0.7642 ± 0.0078 (13 replicates)
+  Mamba-bpe: lr=5e-05 | batch_size=128 | rc_aug=True
+    MCC: 0.5299 ± 0.0096, Acc: 0.7519 ± 0.0068 (13 replicates)
+    WARNING: Mamba-char lr=0.001 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Mamba-char lr=0.01 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.01 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+  Mamba-char: lr=0.0005 | batch_size=128 | rc_aug=True
+    MCC: 0.5352 ± 0.0101, Acc: 0.7573 ± 0.0081 (15 replicates)
+
+Task: H3K36me3
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.5398 ± 0.0091, Acc: 0.7622 ± 0.0077 (3 replicates)
+    WARNING: Caduceus lr=0.001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 8 seeds
+  Caduceus: lr=0.001 | batch_size=256 | rc_aug=False
+    MCC: 0.5306 ± 0.0179, Acc: 0.7596 ± 0.0076 (3 replicates)
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=True
+    MCC: 0.5038 ± 0.0079, Acc: 0.7460 ± 0.0059 (13 replicates)
+  Mamba-bpe: lr=5e-05 | batch_size=128 | rc_aug=True
+    MCC: 0.4889 ± 0.0096, Acc: 0.7384 ± 0.0058 (13 replicates)
+    WARNING: Mamba-char lr=0.001 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Mamba-char lr=0.002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Mamba-char lr=0.01 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.01 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+  Mamba-char: lr=0.0003 | batch_size=128 | rc_aug=True
+    MCC: 0.4872 ± 0.0116, Acc: 0.7380 ± 0.0088 (15 replicates)
+
+Task: H3K4me1
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.4058 ± 0.0097, Acc: 0.6899 ± 0.0114 (3 replicates)
+    WARNING: Caduceus lr=0.001 bs=128 rc_aug=True has 2 MCC NaNs, 2 Acc NaNs out of 13 seeds
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.4292 ± 0.0082, Acc: 0.7058 ± 0.0101 (11 replicates)
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.4027 ± 0.0074, Acc: 0.6952 ± 0.0041 (11 replicates)
+  Mamba-bpe: lr=5e-05 | batch_size=128 | rc_aug=True
+    MCC: 0.4059 ± 0.0095, Acc: 0.6928 ± 0.0053 (13 replicates)
+    WARNING: Mamba-char lr=0.001 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Mamba-char lr=0.002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Mamba-char lr=0.01 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.01 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+  Mamba-char: lr=0.0001 | batch_size=128 | rc_aug=True
+    MCC: 0.4049 ± 0.0111, Acc: 0.6919 ± 0.0054 (15 replicates)
+
+Task: H3K4me2
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.4871 ± 0.0159, Acc: 0.7426 ± 0.0070 (3 replicates)
+    WARNING: Caduceus lr=0.001 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 8 seeds
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.4848 ± 0.0196, Acc: 0.7363 ± 0.0121 (7 replicates)
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.4765 ± 0.0146, Acc: 0.7316 ± 0.0091 (13 replicates)
+    WARNING: Mamba-bpe lr=5e-05 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=5e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.4706 ± 0.0154, Acc: 0.7291 ± 0.0111 (12 replicates)
+    WARNING: Mamba-char lr=0.001 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Mamba-char lr=0.002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Mamba-char lr=0.01 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.01 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+  Mamba-char: lr=0.0001 | batch_size=256 | rc_aug=True
+    MCC: 0.4576 ± 0.0145, Acc: 0.7249 ± 0.0084 (15 replicates)
+
+Task: H3K4me3
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.5812 ± 0.0165, Acc: 0.7887 ± 0.0078 (3 replicates)
+    WARNING: Caduceus lr=0.0001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 7 seeds
+    WARNING: Caduceus lr=0.01 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    Note: Choosing alternative with more replicates (MCC diff: 0.0040)
+    Original best: MCC=0.6273 with 3 replicates
+    Selected: MCC=0.6232 with 10 replicates
+  Caduceus: lr=0.0001 | batch_size=128 | rc_aug=True
+    MCC: 0.6232 ± 0.0086, Acc: 0.8112 ± 0.0045 (10 replicates)
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 13 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+  HyenaDNA: lr=0.0002 | batch_size=256 | rc_aug=False
+    MCC: 0.6350 ± 0.0217, Acc: 0.8166 ± 0.0122 (3 replicates)
+  Mamba-bpe: lr=5e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.6012 ± 0.0158, Acc: 0.8004 ± 0.0080 (13 replicates)
+    WARNING: Mamba-char lr=0.002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.01 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+  Mamba-char: lr=0.0001 | batch_size=256 | rc_aug=True
+    MCC: 0.6061 ± 0.0143, Acc: 0.8025 ± 0.0076 (15 replicates)
+
+Task: H3K9ac
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.5034 ± 0.0160, Acc: 0.7507 ± 0.0086 (3 replicates)
+    WARNING: Caduceus lr=0.0001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 8 seeds
+    WARNING: Caduceus lr=0.01 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    Note: Choosing alternative with more replicates (MCC diff: 0.0015)
+    Original best: MCC=0.5122 with 3 replicates
+    Selected: MCC=0.5106 with 7 replicates
+  Caduceus: lr=0.0001 | batch_size=256 | rc_aug=True
+    MCC: 0.5106 ± 0.0034, Acc: 0.7548 ± 0.0019 (7 replicates)
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 13 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    Note: Choosing alternative with more replicates (MCC diff: 0.0026)
+    Original best: MCC=0.5076 with 3 replicates
+    Selected: MCC=0.5049 with 12 replicates
+  HyenaDNA: lr=0.0002 | batch_size=256 | rc_aug=True
+    MCC: 0.5049 ± 0.0117, Acc: 0.7510 ± 0.0068 (12 replicates)
+  Mamba-bpe: lr=5e-05 | batch_size=128 | rc_aug=True
+    MCC: 0.4770 ± 0.0212, Acc: 0.7367 ± 0.0103 (13 replicates)
+    WARNING: Mamba-char lr=0.001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.01 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.01 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+  Mamba-char: lr=0.0005 | batch_size=128 | rc_aug=True
+    MCC: 0.5021 ± 0.0207, Acc: 0.7487 ± 0.0108 (15 replicates)
+
+Task: H3K9me3
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.3444 ± 0.0301, Acc: 0.6659 ± 0.0206 (3 replicates)
+    WARNING: Caduceus lr=0.001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 10 seeds
+    Note: Choosing alternative with more replicates (MCC diff: 0.0105)
+    Original best: MCC=0.3950 with 3 replicates
+    Selected: MCC=0.3845 with 9 replicates
+  Caduceus: lr=0.001 | batch_size=256 | rc_aug=True
+    MCC: 0.3845 ± 0.0190, Acc: 0.6914 ± 0.0092 (9 replicates)
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=True
+    MCC: 0.3700 ± 0.0308, Acc: 0.6806 ± 0.0164 (13 replicates)
+  Mamba-bpe: lr=0.0001 | batch_size=128 | rc_aug=True
+    MCC: 0.2896 ± 0.0285, Acc: 0.6433 ± 0.0144 (13 replicates)
+    WARNING: Mamba-char lr=0.001 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Mamba-char lr=0.002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Mamba-char lr=0.01 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.01 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+  Mamba-char: lr=0.0003 | batch_size=128 | rc_aug=True
+    MCC: 0.3375 ± 0.0146, Acc: 0.6670 ± 0.0076 (15 replicates)
+
+Task: H4K20me1
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.5604 ± 0.0115, Acc: 0.7762 ± 0.0028 (3 replicates)
+    WARNING: Caduceus lr=0.0001 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 6 seeds
+    WARNING: Caduceus lr=0.001 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 9 seeds
+    WARNING: Caduceus lr=0.001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 4 seeds
+    Note: Choosing alternative with more replicates (MCC diff: 0.0133)
+    Original best: MCC=0.5893 with 3 replicates
+    Selected: MCC=0.5761 with 8 replicates
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.5761 ± 0.0134, Acc: 0.7796 ± 0.0075 (8 replicates)
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+  HyenaDNA: lr=6e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.5743 ± 0.0137, Acc: 0.7815 ± 0.0086 (13 replicates)
+    WARNING: Mamba-bpe lr=5e-05 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=5e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.5453 ± 0.0090, Acc: 0.7670 ± 0.0066 (12 replicates)
+    WARNING: Mamba-char lr=0.001 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Mamba-char lr=0.01 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.01 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+  Mamba-char: lr=0.0005 | batch_size=256 | rc_aug=True
+    MCC: 0.5604 ± 0.0110, Acc: 0.7747 ± 0.0092 (15 replicates)
+
+Task: demo_coding_vs_intergenomic_seqs
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.7843 ± 0.0051, Acc: 0.8919 ± 0.0024 (3 replicates)
+    Note: Choosing alternative with more replicates (MCC diff: 0.0017)
+    Original best: MCC=0.8293 with 3 replicates
+    Selected: MCC=0.8276 with 10 replicates
+  Caduceus: lr=0.0001 | batch_size=128 | rc_aug=True
+    MCC: 0.8276 ± 0.0024, Acc: 0.9137 ± 0.0012 (10 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=False
+    MCC: 0.8280 ± 0.0056, Acc: 0.9139 ± 0.0029 (3 replicates)
+    WARNING: Mamba-bpe lr=1e-05 bs=128 rc_aug=True has 20 MCC NaNs, 20 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=1e-05 bs=256 rc_aug=True has 20 MCC NaNs, 20 Acc NaNs out of 33 seeds
+  Mamba-bpe: lr=1e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.7925 ± 0.0022, Acc: 0.8962 ± 0.0011 (13 replicates)
+  Mamba-char: lr=0.002 | batch_size=256 | rc_aug=True
+    MCC: 0.7742 ± 0.1215, Acc: 0.8828 ± 0.0756 (13 replicates)
+
+Task: demo_human_or_worm
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.8838 ± 0.0027, Acc: 0.9418 ± 0.0013 (3 replicates)
+    Note: Choosing alternative with more replicates (MCC diff: 0.0004)
+    Original best: MCC=0.9439 with 3 replicates
+    Selected: MCC=0.9435 with 10 replicates
+  Caduceus: lr=0.0005 | batch_size=128 | rc_aug=True
+    MCC: 0.9435 ± 0.0014, Acc: 0.9717 ± 0.0007 (10 replicates)
+    Note: Choosing alternative with more replicates (MCC diff: 0.0053)
+    Original best: MCC=0.9340 with 3 replicates
+    Selected: MCC=0.9287 with 13 replicates
+  HyenaDNA: lr=6e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.9287 ± 0.0031, Acc: 0.9643 ± 0.0016 (13 replicates)
+    WARNING: Mamba-bpe lr=1e-05 bs=128 rc_aug=True has 20 MCC NaNs, 20 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=1e-05 bs=256 rc_aug=True has 20 MCC NaNs, 20 Acc NaNs out of 23 seeds
+  Mamba-bpe: lr=0.0001 | batch_size=256 | rc_aug=True
+    MCC: 0.9228 ± 0.0024, Acc: 0.9613 ± 0.0013 (13 replicates)
+  Mamba-char: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.9303 ± 0.0086, Acc: 0.9651 ± 0.0043 (13 replicates)
+
+Task: drosophila_enhancers_stark
+  Skipping model 'Mamba-bpe': No hyperparameter combinations with ≥10 replicates
+
+Task: dummy_mouse_enhancers_ensembl
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.4257 ± 0.0251, Acc: 0.7107 ± 0.0109 (3 replicates)
+  Caduceus: lr=0.002 | batch_size=128 | rc_aug=True
+    MCC: 0.5826 ± 0.0377, Acc: 0.7880 ± 0.0210 (10 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.5918 ± 0.0489, Acc: 0.7937 ± 0.0263 (13 replicates)
+    WARNING: Mamba-bpe lr=1e-05 bs=128 rc_aug=True has 20 MCC NaNs, 20 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=1e-05 bs=256 rc_aug=True has 20 MCC NaNs, 20 Acc NaNs out of 23 seeds
+  Mamba-bpe: lr=5e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.5554 ± 0.0325, Acc: 0.7750 ± 0.0186 (13 replicates)
+  Mamba-char: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.5702 ± 0.0393, Acc: 0.7848 ± 0.0199 (13 replicates)
+
+Task: emp_H3
+    WARNING: HyenaDNA lr=1e-05 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=6e-05 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+  Skipping model 'HyenaDNA': No hyperparameter combinations with ≥3 replicates
+    WARNING: Mamba-bpe lr=5e-05 bs=128 rc_aug=True has 7 MCC NaNs, 7 Acc NaNs out of 10 seeds
+    WARNING: Mamba-bpe lr=5e-05 bs=256 rc_aug=True has 7 MCC NaNs, 7 Acc NaNs out of 10 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 17 MCC NaNs, 17 Acc NaNs out of 20 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 17 MCC NaNs, 17 Acc NaNs out of 20 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 17 MCC NaNs, 17 Acc NaNs out of 20 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 17 MCC NaNs, 17 Acc NaNs out of 20 seeds
+  Skipping model 'Mamba-bpe': No hyperparameter combinations with ≥10 replicates
+
+Task: emp_H3K14ac
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=False
+    MCC: 0.5424 ± 0.0035, Acc: 0.7760 ± 0.0033 (3 replicates)
+    WARNING: HyenaDNA lr=1e-05 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=1e-05 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: HyenaDNA lr=6e-05 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 5 seeds
+    WARNING: HyenaDNA lr=6e-05 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 5 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 5 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 5 seeds
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=True
+    MCC: 0.4909 ± 0.0208, Acc: 0.7520 ± 0.0090 (4 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-bpe': No hyperparameter combinations with ≥10 replicates
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-char': No hyperparameter combinations with ≥10 replicates
+
+Task: emp_H3K36me3
+  Caduceus: lr=0.002 | batch_size=128 | rc_aug=False
+    MCC: 0.5597 ± 0.0059, Acc: 0.7832 ± 0.0034 (3 replicates)
+    WARNING: HyenaDNA lr=0.0006 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 4 seeds
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=True
+    MCC: 0.4894 ± 0.0183, Acc: 0.7482 ± 0.0084 (3 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-bpe': No hyperparameter combinations with ≥10 replicates
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-char': No hyperparameter combinations with ≥10 replicates
+
+Task: emp_H3K4me1
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=False
+    MCC: 0.4685 ± 0.0024, Acc: 0.7376 ± 0.0012 (3 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=True
+    MCC: 0.4360 ± 0.0009, Acc: 0.7220 ± 0.0004 (3 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-bpe': No hyperparameter combinations with ≥10 replicates
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-char': No hyperparameter combinations with ≥10 replicates
+
+Task: emp_H3K4me2
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=False
+    MCC: 0.3872 ± 0.0196, Acc: 0.7056 ± 0.0102 (3 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=True
+    MCC: 0.3069 ± 0.0232, Acc: 0.6694 ± 0.0123 (3 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-bpe': No hyperparameter combinations with ≥10 replicates
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-char': No hyperparameter combinations with ≥10 replicates
+
+Task: emp_H3K4me3
+  Caduceus: lr=0.001 | batch_size=256 | rc_aug=False
+    MCC: 0.4340 ± 0.0229, Acc: 0.7180 ± 0.0105 (3 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=True
+    MCC: 0.3524 ± 0.0196, Acc: 0.6765 ± 0.0076 (3 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-bpe': No hyperparameter combinations with ≥10 replicates
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-char': No hyperparameter combinations with ≥10 replicates
+
+Task: emp_H3K79me3
+  Caduceus: lr=0.002 | batch_size=256 | rc_aug=False
+    MCC: 0.6677 ± 0.0087, Acc: 0.8343 ± 0.0047 (3 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=True
+    MCC: 0.6195 ± 0.0182, Acc: 0.8102 ± 0.0085 (3 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-bpe': No hyperparameter combinations with ≥10 replicates
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-char': No hyperparameter combinations with ≥10 replicates
+
+Task: emp_H3K9ac
+  Caduceus: lr=0.002 | batch_size=256 | rc_aug=False
+    MCC: 0.5827 ± 0.0151, Acc: 0.7931 ± 0.0070 (3 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=True
+    MCC: 0.5434 ± 0.0161, Acc: 0.7739 ± 0.0088 (3 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-bpe': No hyperparameter combinations with ≥10 replicates
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-char': No hyperparameter combinations with ≥10 replicates
+
+Task: emp_H4
+  Caduceus: lr=0.001 | batch_size=256 | rc_aug=False
+    MCC: 0.8003 ± 0.0110, Acc: 0.9012 ± 0.0057 (3 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=True
+    MCC: 0.7901 ± 0.0098, Acc: 0.8960 ± 0.0049 (3 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-bpe': No hyperparameter combinations with ≥10 replicates
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-char': No hyperparameter combinations with ≥10 replicates
+
+Task: emp_H4ac
+  Caduceus: lr=0.002 | batch_size=256 | rc_aug=False
+    MCC: 0.5125 ± 0.0247, Acc: 0.7571 ± 0.0117 (3 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=True
+    MCC: 0.4242 ± 0.0352, Acc: 0.7136 ± 0.0178 (3 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-bpe': No hyperparameter combinations with ≥10 replicates
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Skipping model 'Mamba-char': No hyperparameter combinations with ≥10 replicates
+
+Task: enhancers
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.5012 ± 0.0137, Acc: 0.7448 ± 0.0108 (3 replicates)
+    WARNING: Caduceus lr=0.001 bs=128 rc_aug=False has 3 MCC NaNs, 3 Acc NaNs out of 6 seeds
+    WARNING: Caduceus lr=0.001 bs=256 rc_aug=False has 3 MCC NaNs, 3 Acc NaNs out of 6 seeds
+    WARNING: Caduceus lr=0.002 bs=128 rc_aug=False has 5 MCC NaNs, 5 Acc NaNs out of 6 seeds
+    WARNING: Caduceus lr=0.002 bs=256 rc_aug=False has 5 MCC NaNs, 5 Acc NaNs out of 6 seeds
+    WARNING: Caduceus lr=0.01 bs=128 rc_aug=False has 4 MCC NaNs, 4 Acc NaNs out of 5 seeds
+    WARNING: Caduceus lr=0.01 bs=256 rc_aug=False has 4 MCC NaNs, 4 Acc NaNs out of 5 seeds
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.5049 ± 0.0083, Acc: 0.7453 ± 0.0082 (10 replicates)
+  HyenaDNA: lr=0.0002 | batch_size=128 | rc_aug=False
+    MCC: 0.5112 ± 0.0130, Acc: 0.7522 ± 0.0042 (3 replicates)
+  Mamba-bpe: lr=5e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.4866 ± 0.0079, Acc: 0.7356 ± 0.0057 (13 replicates)
+  Mamba-char: lr=0.002 | batch_size=256 | rc_aug=True
+    MCC: 0.4894 ± 0.0111, Acc: 0.7373 ± 0.0049 (13 replicates)
+
+Task: enhancers_types
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.4423 ± 0.0070, Acc: 0.7053 ± 0.0050 (3 replicates)
+    WARNING: Caduceus lr=0.002 bs=128 rc_aug=False has 2 MCC NaNs, 2 Acc NaNs out of 3 seeds
+    WARNING: Caduceus lr=0.002 bs=256 rc_aug=False has 2 MCC NaNs, 2 Acc NaNs out of 3 seeds
+    WARNING: Caduceus lr=0.01 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Caduceus lr=0.01 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    Note: Choosing alternative with more replicates (MCC diff: 0.0010)
+    Original best: MCC=0.4619 with 3 replicates
+    Selected: MCC=0.4609 with 10 replicates
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.4609 ± 0.0101, Acc: 0.7087 ± 0.0110 (10 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=False
+    MCC: 0.4749 ± 0.0060, Acc: 0.7182 ± 0.0058 (3 replicates)
+  Mamba-bpe: lr=5e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.4486 ± 0.0101, Acc: 0.6996 ± 0.0056 (13 replicates)
+  Mamba-char: lr=0.002 | batch_size=128 | rc_aug=True
+    MCC: 0.4612 ± 0.0069, Acc: 0.7081 ± 0.0070 (11 replicates)
+
+Task: human_enhancers_cohn
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.4029 ± 0.0156, Acc: 0.6989 ± 0.0090 (3 replicates)
+    Note: Choosing alternative with more replicates (MCC diff: 0.0006)
+    Original best: MCC=0.4941 with 3 replicates
+    Selected: MCC=0.4935 with 10 replicates
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.4935 ± 0.0078, Acc: 0.7462 ± 0.0041 (10 replicates)
+  HyenaDNA: lr=6e-05 | batch_size=128 | rc_aug=True
+    MCC: 0.4689 ± 0.0077, Acc: 0.7340 ± 0.0039 (13 replicates)
+    WARNING: Mamba-bpe lr=1e-05 bs=128 rc_aug=True has 20 MCC NaNs, 20 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=1e-05 bs=256 rc_aug=True has 20 MCC NaNs, 20 Acc NaNs out of 33 seeds
+  Mamba-bpe: lr=1e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.4784 ± 0.0044, Acc: 0.7389 ± 0.0023 (13 replicates)
+  Mamba-char: lr=0.001 | batch_size=256 | rc_aug=True
+    MCC: 0.4726 ± 0.0100, Acc: 0.7350 ± 0.0054 (13 replicates)
+
+Task: human_enhancers_ensembl
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.5394 ± 0.0543, Acc: 0.7607 ± 0.0409 (3 replicates)
+    WARNING: Caduceus lr=1e-05 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Caduceus lr=0.0001 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Caduceus lr=0.0005 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 4 seeds
+    WARNING: Caduceus lr=0.0005 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Caduceus lr=0.001 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Caduceus lr=0.002 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    Note: Choosing alternative with more replicates (MCC diff: 0.0038)
+    Original best: MCC=0.8256 with 3 replicates
+    Selected: MCC=0.8218 with 10 replicates
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.8218 ± 0.0052, Acc: 0.9106 ± 0.0027 (10 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=False
+    MCC: 0.7740 ± 0.0043, Acc: 0.8866 ± 0.0022 (3 replicates)
+    WARNING: Mamba-bpe lr=1e-05 bs=128 rc_aug=True has 20 MCC NaNs, 20 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=1e-05 bs=256 rc_aug=True has 17 MCC NaNs, 17 Acc NaNs out of 20 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 12 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 9 seeds
+  Mamba-bpe: lr=0.0001 | batch_size=128 | rc_aug=True
+    MCC: 0.7324 ± 0.0340, Acc: 0.8650 ± 0.0176 (11 replicates)
+  Mamba-char: lr=0.001 | batch_size=256 | rc_aug=True
+    MCC: 0.7432 ± 0.0505, Acc: 0.8710 ± 0.0260 (13 replicates)
+
+Task: human_ensembl_regulatory
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.7999 ± 0.0031, Acc: 0.8649 ± 0.0021 (3 replicates)
+    WARNING: Caduceus lr=1e-05 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Caduceus lr=1e-05 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Caduceus lr=0.0001 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Caduceus lr=0.0001 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Caduceus lr=0.0005 bs=128 rc_aug=True has 2 MCC NaNs, 2 Acc NaNs out of 9 seeds
+    WARNING: Caduceus lr=0.0005 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Caduceus lr=0.001 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Caduceus lr=0.001 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Caduceus lr=0.002 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Caduceus lr=0.002 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    Note: Choosing alternative with more replicates (MCC diff: 0.0017)
+    Original best: MCC=0.8063 with 3 replicates
+    Selected: MCC=0.8045 with 7 replicates
+  Caduceus: lr=0.0005 | batch_size=128 | rc_aug=True
+    MCC: 0.8045 ± 0.0123, Acc: 0.8684 ± 0.0086 (7 replicates)
+  HyenaDNA: lr=6e-05 | batch_size=128 | rc_aug=True
+    MCC: 0.7946 ± 0.0061, Acc: 0.8609 ± 0.0049 (13 replicates)
+    WARNING: Mamba-bpe lr=1e-05 bs=128 rc_aug=True has 19 MCC NaNs, 19 Acc NaNs out of 22 seeds
+    WARNING: Mamba-bpe lr=5e-05 bs=128 rc_aug=True has 7 MCC NaNs, 7 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=5e-05 bs=256 rc_aug=True has 2 MCC NaNs, 2 Acc NaNs out of 3 seeds
+  Skipping model 'Mamba-bpe': No hyperparameter combinations with ≥10 replicates
+  Mamba-char: lr=0.001 | batch_size=256 | rc_aug=True
+    MCC: 0.6052 ± 0.1359, Acc: 0.7325 ± 0.0924 (13 replicates)
+
+Task: human_nontata_promoters
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.7227 ± 0.0105, Acc: 0.8607 ± 0.0043 (3 replicates)
+    Note: Choosing alternative with more replicates (MCC diff: 0.0024)
+    Original best: MCC=0.8938 with 3 replicates
+    Selected: MCC=0.8913 with 10 replicates
+  Caduceus: lr=0.001 | batch_size=256 | rc_aug=True
+    MCC: 0.8913 ± 0.0033, Acc: 0.9451 ± 0.0015 (10 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=False
+    MCC: 0.9086 ± 0.0063, Acc: 0.9538 ± 0.0029 (3 replicates)
+    WARNING: Mamba-bpe lr=1e-05 bs=128 rc_aug=True has 20 MCC NaNs, 20 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=1e-05 bs=256 rc_aug=True has 20 MCC NaNs, 20 Acc NaNs out of 23 seeds
+  Mamba-bpe: lr=0.0001 | batch_size=256 | rc_aug=True
+    MCC: 0.8949 ± 0.0038, Acc: 0.9470 ± 0.0019 (13 replicates)
+  Mamba-char: lr=0.001 | batch_size=256 | rc_aug=True
+    MCC: 0.9110 ± 0.0082, Acc: 0.9552 ± 0.0043 (13 replicates)
+
+Task: human_ocr_ensembl
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.3998 ± 0.0143, Acc: 0.6997 ± 0.0070 (3 replicates)
+    WARNING: Caduceus lr=1e-05 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Caduceus lr=0.0001 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Caduceus lr=0.0005 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 7 seeds
+    WARNING: Caduceus lr=0.0005 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Caduceus lr=0.001 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 10 seeds
+    WARNING: Caduceus lr=0.001 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Caduceus lr=0.002 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    Note: Choosing alternative with more replicates (MCC diff: 0.0090)
+    Original best: MCC=0.6360 with 3 replicates
+    Selected: MCC=0.6269 with 6 replicates
+  Caduceus: lr=0.0005 | batch_size=128 | rc_aug=True
+    MCC: 0.6269 ± 0.0039, Acc: 0.8133 ± 0.0020 (6 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=True
+    MCC: 0.6048 ± 0.0037, Acc: 0.8021 ± 0.0020 (13 replicates)
+    WARNING: Mamba-bpe lr=1e-05 bs=128 rc_aug=True has 20 MCC NaNs, 20 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=1e-05 bs=256 rc_aug=True has 19 MCC NaNs, 19 Acc NaNs out of 22 seeds
+  Mamba-bpe: lr=5e-05 | batch_size=128 | rc_aug=True
+    MCC: 0.5453 ± 0.0052, Acc: 0.7723 ± 0.0026 (13 replicates)
+  Mamba-char: lr=0.002 | batch_size=256 | rc_aug=True
+    MCC: 0.6319 ± 0.0035, Acc: 0.8157 ± 0.0017 (13 replicates)
+
+Task: human_tf_0
+    Note: Choosing alternative with more replicates (MCC diff: 0.0115)
+    Original best: MCC=0.6719 with 3 replicates
+    Selected: MCC=0.6605 with 7 replicates
+  Caduceus: lr=0.0005 | batch_size=256 | rc_aug=True
+    MCC: 0.6605 ± 0.0138, Acc: 0.8241 ± 0.0086 (7 replicates)
+  HyenaDNA: lr=6e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.6707 ± 0.0082, Acc: 0.8302 ± 0.0055 (12 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=0.0001 | batch_size=256 | rc_aug=True
+    MCC: 0.6426 ± 0.0165, Acc: 0.8149 ± 0.0100 (13 replicates)
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 20 seeds
+  Mamba-char: lr=0.0002 | batch_size=256 | rc_aug=True
+    MCC: 0.6707 ± 0.0128, Acc: 0.8301 ± 0.0067 (10 replicates)
+
+Task: human_tf_1
+    Note: Choosing alternative with more replicates (MCC diff: 0.0114)
+    Original best: MCC=0.7293 with 3 replicates
+    Selected: MCC=0.7180 with 7 replicates
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.7180 ± 0.0141, Acc: 0.8557 ± 0.0078 (7 replicates)
+    Note: Choosing alternative with more replicates (MCC diff: 0.0033)
+    Original best: MCC=0.7093 with 3 replicates
+    Selected: MCC=0.7060 with 12 replicates
+  HyenaDNA: lr=6e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.7060 ± 0.0123, Acc: 0.8481 ± 0.0088 (12 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 22 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.6833 ± 0.0154, Acc: 0.8363 ± 0.0107 (12 replicates)
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-char: lr=5e-05 | batch_size=128 | rc_aug=True
+    MCC: 0.6912 ± 0.0094, Acc: 0.8403 ± 0.0052 (10 replicates)
+
+Task: human_tf_2
+    Note: Choosing alternative with more replicates (MCC diff: 0.0144)
+    Original best: MCC=0.7213 with 3 replicates
+    Selected: MCC=0.7069 with 7 replicates
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.7069 ± 0.0159, Acc: 0.8501 ± 0.0084 (7 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.6707 ± 0.0224, Acc: 0.8334 ± 0.0113 (11 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 23 seeds
+  Mamba-bpe: lr=0.0001 | batch_size=128 | rc_aug=True
+    MCC: 0.5714 ± 0.0140, Acc: 0.7820 ± 0.0067 (13 replicates)
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 20 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-char: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.6133 ± 0.0243, Acc: 0.8023 ± 0.0137 (10 replicates)
+
+Task: human_tf_3
+    Note: Choosing alternative with more replicates (MCC diff: 0.0090)
+    Original best: MCC=0.5675 with 3 replicates
+    Selected: MCC=0.5585 with 7 replicates
+  Caduceus: lr=0.002 | batch_size=128 | rc_aug=True
+    MCC: 0.5585 ± 0.0532, Acc: 0.7767 ± 0.0258 (7 replicates)
+    Note: Choosing alternative with more replicates (MCC diff: 0.0124)
+    Original best: MCC=0.5317 with 3 replicates
+    Selected: MCC=0.5193 with 11 replicates
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.5193 ± 0.0195, Acc: 0.7574 ± 0.0100 (11 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=0.0001 | batch_size=128 | rc_aug=True
+    MCC: 0.4803 ± 0.0169, Acc: 0.7360 ± 0.0110 (13 replicates)
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 20 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-char: lr=0.0001 | batch_size=128 | rc_aug=True
+    MCC: 0.4847 ± 0.0217, Acc: 0.7395 ± 0.0107 (10 replicates)
+
+Task: human_tf_4
+  Caduceus: lr=0.002 | batch_size=128 | rc_aug=False
+    MCC: 0.7995 ± 0.0112, Acc: 0.8993 ± 0.0057 (3 replicates)
+    Note: Choosing alternative with more replicates (MCC diff: 0.0052)
+    Original best: MCC=0.7545 with 3 replicates
+    Selected: MCC=0.7492 with 10 replicates
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.7492 ± 0.0158, Acc: 0.8739 ± 0.0079 (10 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.6967 ± 0.0208, Acc: 0.8482 ± 0.0104 (13 replicates)
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 20 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-char: lr=0.0001 | batch_size=256 | rc_aug=True
+    MCC: 0.7057 ± 0.0060, Acc: 0.8512 ± 0.0031 (10 replicates)
+
+Task: mouse_0
+  Caduceus: lr=0.002 | batch_size=128 | rc_aug=True
+    MCC: 0.6096 ± 0.0180, Acc: 0.8023 ± 0.0084 (7 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.5394 ± 0.0158, Acc: 0.7621 ± 0.0031 (3 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=0.0001 | batch_size=128 | rc_aug=True
+    MCC: 0.5068 ± 0.0161, Acc: 0.7524 ± 0.0082 (13 replicates)
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 20 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-char: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.4651 ± 0.0185, Acc: 0.7314 ± 0.0097 (10 replicates)
+
+Task: mouse_1
+    Note: Choosing alternative with more replicates (MCC diff: 0.0028)
+    Original best: MCC=0.8482 with 3 replicates
+    Selected: MCC=0.8453 with 7 replicates
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.8453 ± 0.0023, Acc: 0.9225 ± 0.0011 (7 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=True
+    MCC: 0.8236 ± 0.0036, Acc: 0.9113 ± 0.0020 (10 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 23 seeds
+  Mamba-bpe: lr=0.0002 | batch_size=256 | rc_aug=True
+    MCC: 0.8008 ± 0.0055, Acc: 0.8998 ± 0.0027 (13 replicates)
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 11 MCC NaNs, 11 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 20 seeds
+  Mamba-char: lr=0.0002 | batch_size=256 | rc_aug=True
+    MCC: 0.7950 ± 0.0035, Acc: 0.8972 ± 0.0016 (10 replicates)
+
+Task: mouse_2
+  Caduceus: lr=0.002 | batch_size=128 | rc_aug=True
+    MCC: 0.8449 ± 0.0167, Acc: 0.9212 ± 0.0081 (7 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.8015 ± 0.0320, Acc: 0.8994 ± 0.0162 (10 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.7718 ± 0.0212, Acc: 0.8853 ± 0.0107 (13 replicates)
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 17 seeds
+  Skipping model 'Mamba-char': No hyperparameter combinations with ≥10 replicates
+
+Task: mouse_3
+    Note: Choosing alternative with more replicates (MCC diff: 0.0132)
+    Original best: MCC=0.8369 with 3 replicates
+    Selected: MCC=0.8237 with 7 replicates
+  Caduceus: lr=0.002 | batch_size=128 | rc_aug=True
+    MCC: 0.8237 ± 0.0269, Acc: 0.9097 ± 0.0130 (7 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.7369 ± 0.0477, Acc: 0.8657 ± 0.0227 (10 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.5878 ± 0.0471, Acc: 0.7924 ± 0.0246 (13 replicates)
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 20 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-char: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.5012 ± 0.0283, Acc: 0.7414 ± 0.0131 (10 replicates)
+
+Task: mouse_4
+    Note: Choosing alternative with more replicates (MCC diff: 0.0027)
+    Original best: MCC=0.4959 with 3 replicates
+    Selected: MCC=0.4933 with 7 replicates
+  Caduceus: lr=0.002 | batch_size=256 | rc_aug=True
+    MCC: 0.4933 ± 0.0118, Acc: 0.7454 ± 0.0056 (7 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.4681 ± 0.0159, Acc: 0.7331 ± 0.0080 (10 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=5e-05 | batch_size=128 | rc_aug=True
+    MCC: 0.4184 ± 0.0128, Acc: 0.7086 ± 0.0067 (13 replicates)
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 20 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-char: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.4229 ± 0.0165, Acc: 0.7107 ± 0.0079 (10 replicates)
+
+Task: phage_fragments
+  HyenaDNA: lr=0.003 | batch_size=128 | rc_aug=True
+    MCC: 0.4521 ± 0.1039, Acc: 0.7094 ± 0.0662 (3 replicates)
+
+Task: prom_300_all
+  Caduceus: lr=0.001 | batch_size=256 | rc_aug=True
+    MCC: 0.8225 ± 0.0047, Acc: 0.9103 ± 0.0023 (8 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.8260 ± 0.0052, Acc: 0.9125 ± 0.0026 (10 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=5e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.8097 ± 0.0032, Acc: 0.9041 ± 0.0016 (13 replicates)
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 20 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-char: lr=0.0001 | batch_size=128 | rc_aug=True
+    MCC: 0.8181 ± 0.0065, Acc: 0.9085 ± 0.0031 (10 replicates)
+
+Task: prom_300_notata
+    Note: Choosing alternative with more replicates (MCC diff: 0.0020)
+    Original best: MCC=0.9286 with 3 replicates
+    Selected: MCC=0.9266 with 7 replicates
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.9266 ± 0.0019, Acc: 0.9633 ± 0.0010 (7 replicates)
+    WARNING: HyenaDNA lr=0.006 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.006 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=True
+    MCC: 0.9176 ± 0.0054, Acc: 0.9588 ± 0.0027 (10 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=5e-05 | batch_size=128 | rc_aug=True
+    MCC: 0.9107 ± 0.0046, Acc: 0.9551 ± 0.0024 (13 replicates)
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 20 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-char: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.9171 ± 0.0027, Acc: 0.9584 ± 0.0014 (10 replicates)
+
+Task: prom_300_tata
+    Note: Choosing alternative with more replicates (MCC diff: 0.0109)
+    Original best: MCC=0.5796 with 3 replicates
+    Selected: MCC=0.5687 with 7 replicates
+  Caduceus: lr=0.002 | batch_size=128 | rc_aug=True
+    MCC: 0.5687 ± 0.0272, Acc: 0.7840 ± 0.0139 (7 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.4658 ± 0.0431, Acc: 0.7325 ± 0.0221 (10 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=5e-05 | batch_size=128 | rc_aug=True
+    MCC: 0.3098 ± 0.0330, Acc: 0.6545 ± 0.0156 (13 replicates)
+    WARNING: Mamba-char lr=5e-05 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 20 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-char: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.3344 ± 0.0300, Acc: 0.6670 ± 0.0158 (10 replicates)
+
+Task: prom_core_all
+    Note: Choosing alternative with more replicates (MCC diff: 0.0140)
+    Original best: MCC=0.6585 with 3 replicates
+    Selected: MCC=0.6445 with 8 replicates
+  Caduceus: lr=0.002 | batch_size=256 | rc_aug=True
+    MCC: 0.6445 ± 0.0099, Acc: 0.8217 ± 0.0050 (8 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=True
+    MCC: 0.6264 ± 0.0077, Acc: 0.8130 ± 0.0039 (10 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=0.0001 | batch_size=128 | rc_aug=True
+    MCC: 0.5962 ± 0.0089, Acc: 0.7975 ± 0.0044 (13 replicates)
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 20 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-char: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.6172 ± 0.0069, Acc: 0.8083 ± 0.0034 (10 replicates)
+
+Task: prom_core_notata
+    Note: Choosing alternative with more replicates (MCC diff: 0.0074)
+    Original best: MCC=0.6803 with 3 replicates
+    Selected: MCC=0.6729 with 7 replicates
+  Caduceus: lr=0.002 | batch_size=256 | rc_aug=True
+    MCC: 0.6729 ± 0.0078, Acc: 0.8358 ± 0.0046 (7 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=256 | rc_aug=True
+    MCC: 0.6638 ± 0.0036, Acc: 0.8318 ± 0.0018 (10 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=5e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.6521 ± 0.0066, Acc: 0.8259 ± 0.0033 (13 replicates)
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 20 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-char: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.6543 ± 0.0042, Acc: 0.8269 ± 0.0021 (10 replicates)
+
+Task: prom_core_tata
+  Caduceus: lr=0.002 | batch_size=128 | rc_aug=False
+    MCC: 0.6323 ± 0.1544, Acc: 0.8146 ± 0.0760 (3 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.4651 ± 0.0314, Acc: 0.7323 ± 0.0157 (11 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 23 seeds
+  Mamba-bpe: lr=0.0002 | batch_size=256 | rc_aug=True
+    MCC: 0.4237 ± 0.0279, Acc: 0.7105 ± 0.0142 (13 replicates)
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 20 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 21 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-char: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.5379 ± 0.0174, Acc: 0.7682 ± 0.0089 (11 replicates)
+
+Task: promoter_all
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.7350 ± 0.0133, Acc: 0.8672 ± 0.0070 (3 replicates)
+    WARNING: Caduceus lr=0.002 bs=128 rc_aug=False has 2 MCC NaNs, 2 Acc NaNs out of 3 seeds
+    WARNING: Caduceus lr=0.002 bs=256 rc_aug=False has 2 MCC NaNs, 2 Acc NaNs out of 3 seeds
+    WARNING: Caduceus lr=0.01 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Caduceus lr=0.01 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    Note: Choosing alternative with more replicates (MCC diff: 0.0021)
+    Original best: MCC=0.7205 with 3 replicates
+    Selected: MCC=0.7185 with 10 replicates
+  Caduceus: lr=1e-05 | batch_size=128 | rc_aug=True
+    MCC: 0.7185 ± 0.0045, Acc: 0.8590 ± 0.0021 (10 replicates)
+  HyenaDNA: lr=0.0002 | batch_size=128 | rc_aug=False
+    MCC: 0.7256 ± 0.0190, Acc: 0.8626 ± 0.0095 (3 replicates)
+  Mamba-bpe: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.6976 ± 0.0112, Acc: 0.8478 ± 0.0056 (13 replicates)
+  Mamba-char: lr=0.002 | batch_size=128 | rc_aug=True
+    MCC: 0.7107 ± 0.0086, Acc: 0.8543 ± 0.0043 (13 replicates)
+
+Task: promoter_no_tata
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.7311 ± 0.0186, Acc: 0.8644 ± 0.0102 (3 replicates)
+    WARNING: Caduceus lr=0.002 bs=128 rc_aug=False has 2 MCC NaNs, 2 Acc NaNs out of 3 seeds
+    WARNING: Caduceus lr=0.002 bs=256 rc_aug=False has 2 MCC NaNs, 2 Acc NaNs out of 3 seeds
+    WARNING: Caduceus lr=0.01 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    WARNING: Caduceus lr=0.01 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+    Note: Choosing alternative with more replicates (MCC diff: 0.0008)
+    Original best: MCC=0.7388 with 3 replicates
+    Selected: MCC=0.7380 with 10 replicates
+  Caduceus: lr=0.0001 | batch_size=128 | rc_aug=True
+    MCC: 0.7380 ± 0.0081, Acc: 0.8680 ± 0.0046 (10 replicates)
+    Note: Choosing alternative with more replicates (MCC diff: 0.0101)
+    Original best: MCC=0.7454 with 3 replicates
+    Selected: MCC=0.7353 with 13 replicates
+  HyenaDNA: lr=6e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.7353 ± 0.0052, Acc: 0.8670 ± 0.0030 (13 replicates)
+  Mamba-bpe: lr=5e-05 | batch_size=256 | rc_aug=True
+    MCC: 0.7267 ± 0.0086, Acc: 0.8626 ± 0.0043 (13 replicates)
+  Mamba-char: lr=0.002 | batch_size=128 | rc_aug=True
+    MCC: 0.7331 ± 0.0097, Acc: 0.8659 ± 0.0048 (13 replicates)
+
+Task: promoter_tata
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.8875 ± 0.0260, Acc: 0.9434 ± 0.0125 (3 replicates)
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.8384 ± 0.0347, Acc: 0.9189 ± 0.0173 (10 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=False
+    MCC: 0.8373 ± 0.0291, Acc: 0.9167 ± 0.0179 (3 replicates)
+  Mamba-bpe: lr=0.0002 | batch_size=256 | rc_aug=True
+    MCC: 0.6208 ± 0.0318, Acc: 0.8084 ± 0.0168 (13 replicates)
+  Mamba-char: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.6758 ± 0.0403, Acc: 0.8360 ± 0.0207 (13 replicates)
+
+Task: splice_reconstructed
+    WARNING: Caduceus lr=0.0001 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 2 seeds
+  Caduceus: lr=0.001 | batch_size=256 | rc_aug=False
+    MCC: 0.7992 ± 0.0422, Acc: 0.8829 ± 0.0249 (3 replicates)
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.8200 ± 0.0119, Acc: 0.8950 ± 0.0067 (10 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 11 MCC NaNs, 11 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 11 MCC NaNs, 11 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.6142 ± 0.0157, Acc: 0.7765 ± 0.0088 (13 replicates)
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 20 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-char: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.6641 ± 0.0249, Acc: 0.8044 ± 0.0151 (10 replicates)
+
+Task: splice_sites_acceptors
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.9277 ± 0.0050, Acc: 0.9638 ± 0.0025 (3 replicates)
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.8735 ± 0.0090, Acc: 0.9367 ± 0.0045 (10 replicates)
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.8874 ± 0.0164, Acc: 0.9436 ± 0.0081 (13 replicates)
+  Mamba-bpe: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.6069 ± 0.0290, Acc: 0.8022 ± 0.0159 (13 replicates)
+    WARNING: Mamba-char lr=0.001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+  Mamba-char: lr=0.002 | batch_size=128 | rc_aug=True
+    MCC: 0.9019 ± 0.0072, Acc: 0.9509 ± 0.0036 (13 replicates)
+
+Task: splice_sites_all
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.9268 ± 0.0020, Acc: 0.9511 ± 0.0014 (3 replicates)
+  Caduceus: lr=0.001 | batch_size=128 | rc_aug=True
+    MCC: 0.9111 ± 0.0102, Acc: 0.9407 ± 0.0068 (10 replicates)
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.9092 ± 0.0155, Acc: 0.9394 ± 0.0103 (13 replicates)
+  Mamba-bpe: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.7049 ± 0.0126, Acc: 0.8026 ± 0.0089 (13 replicates)
+    WARNING: Mamba-char lr=0.001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: Mamba-char lr=0.002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+  Mamba-char: lr=0.002 | batch_size=128 | rc_aug=True
+    MCC: 0.9298 ± 0.0057, Acc: 0.9532 ± 0.0039 (13 replicates)
+
+Task: splice_sites_donors
+  CNN: lr=0.001 | batch_size=64 | rc_aug=False
+    MCC: 0.9529 ± 0.0054, Acc: 0.9764 ± 0.0027 (3 replicates)
+    WARNING: Caduceus lr=0.001 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 9 seeds
+  Caduceus: lr=0.001 | batch_size=256 | rc_aug=False
+    MCC: 0.8799 ± 0.0164, Acc: 0.9399 ± 0.0082 (3 replicates)
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=128 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0002 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=128 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    WARNING: HyenaDNA lr=0.0006 bs=256 rc_aug=False has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+    Note: Choosing alternative with more replicates (MCC diff: 0.0073)
+    Original best: MCC=0.9267 with 3 replicates
+    Selected: MCC=0.9195 with 13 replicates
+  HyenaDNA: lr=0.0006 | batch_size=128 | rc_aug=True
+    MCC: 0.9195 ± 0.0305, Acc: 0.9596 ± 0.0153 (13 replicates)
+  Mamba-bpe: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.5976 ± 0.0173, Acc: 0.7971 ± 0.0096 (13 replicates)
+    WARNING: Mamba-char lr=0.01 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 3 seeds
+  Mamba-char: lr=0.002 | batch_size=128 | rc_aug=True
+    MCC: 0.9292 ± 0.0256, Acc: 0.9646 ± 0.0129 (11 replicates)
+
+Task: virus_covid
+    WARNING: Caduceus lr=0.001 bs=256 rc_aug=True has 2 MCC NaNs, 2 Acc NaNs out of 8 seeds
+  Caduceus: lr=0.001 | batch_size=256 | rc_aug=True
+    MCC: 0.0524 ± 0.0589, Acc: 0.1610 ± 0.0471 (6 replicates)
+    WARNING: HyenaDNA lr=0.0006 bs=256 rc_aug=True has 1 MCC NaNs, 1 Acc NaNs out of 6 seeds
+  HyenaDNA: lr=6e-05 | batch_size=128 | rc_aug=True
+    MCC: 0.6196 ± 0.0205, Acc: 0.6626 ± 0.0180 (11 replicates)
+    WARNING: Mamba-bpe lr=0.0001 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0001 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=128 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 23 seeds
+    WARNING: Mamba-bpe lr=0.0002 bs=256 rc_aug=True has 10 MCC NaNs, 10 Acc NaNs out of 13 seeds
+  Mamba-bpe: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.6520 ± 0.0243, Acc: 0.6905 ± 0.0232 (13 replicates)
+    WARNING: Mamba-char lr=0.0001 bs=128 rc_aug=True has 8 MCC NaNs, 8 Acc NaNs out of 11 seeds
+    WARNING: Mamba-char lr=0.0001 bs=256 rc_aug=True has 8 MCC NaNs, 8 Acc NaNs out of 11 seeds
+    WARNING: Mamba-char lr=0.0002 bs=128 rc_aug=True has 8 MCC NaNs, 8 Acc NaNs out of 18 seeds
+    WARNING: Mamba-char lr=0.0002 bs=256 rc_aug=True has 8 MCC NaNs, 8 Acc NaNs out of 11 seeds
+  Mamba-char: lr=0.0002 | batch_size=128 | rc_aug=True
+    MCC: 0.5764 ± 0.0110, Acc: 0.6246 ± 0.0097 (10 replicates)
+
+
+Results saved to: /Users/leannmlindsey/Dropbox/NIH_WORK/TOKENIZATION/submission_06.11.2025/RESULTS/best_hyperparameters_by_task_ss.csv
+Best replicates saved to: /Users/leannmlindsey/Dropbox/NIH_WORK/TOKENIZATION/submission_06.11.2025/RESULTS/best_replicates_ss.csv
+NaN analysis saved to: /Users/leannmlindsey/Dropbox/NIH_WORK/TOKENIZATION/submission_06.11.2025/RESULTS/ss_nan_analysis.csv
+Total best replicates: 2336
+
+Found 448 hyperparameter combinations with NaN values
+Top 5 most problematic combinations (by MCC NaNs):
+  Mamba-bpe | demo_coding_vs_intergenomic_seqs | lr=1e-05 bs=128 rc_aug=True | 20/23 MCC NaNs
+  Mamba-bpe | demo_coding_vs_intergenomic_seqs | lr=1e-05 bs=256 rc_aug=True | 20/33 MCC NaNs
+  Mamba-bpe | demo_human_or_worm | lr=1e-05 bs=128 rc_aug=True | 20/23 MCC NaNs
+  Mamba-bpe | demo_human_or_worm | lr=1e-05 bs=256 rc_aug=True | 20/23 MCC NaNs
+  Mamba-bpe | dummy_mouse_enhancers_ensembl | lr=1e-05 bs=128 rc_aug=True | 20/23 MCC NaNs
+
+=== SUMMARY STATISTICS ===
+Total task-model combinations analyzed: 219
+Average replicate count: 9.1
+Average MCC of best combinations: 0.6201
+
+Model representation:
+  HyenaDNA: 54 task combinations
+  Caduceus: 53 task combinations
+  Mamba-bpe: 43 task combinations
+  Mamba-char: 43 task combinations
+  CNN: 26 task combinations
+
+Best learning rate distribution by model:
+  CNN:
+    0.001: 26 tasks (100.0%)
+  Caduceus:
+    0.001: 28 tasks (52.8%)
+    0.002: 15 tasks (28.3%)
+    0.0001: 5 tasks (9.4%)
+    0.0005: 4 tasks (7.5%)
+    1e-05: 1 tasks (1.9%)
+  HyenaDNA:
+    0.0006: 39 tasks (72.2%)
+    6e-05: 10 tasks (18.5%)
+    0.0002: 4 tasks (7.4%)
+    0.003: 1 tasks (1.9%)
+  Mamba-bpe:
+    5e-05: 19 tasks (44.2%)
+    0.0002: 13 tasks (30.2%)
+    0.0001: 9 tasks (20.9%)
+    1e-05: 2 tasks (4.7%)
+  Mamba-char:
+    0.0002: 13 tasks (30.2%)
+    0.002: 9 tasks (20.9%)
+    0.0001: 7 tasks (16.3%)
+    0.001: 7 tasks (16.3%)
+    0.0005: 4 tasks (9.3%)
+    0.0003: 2 tasks (4.7%)
+    5e-05: 1 tasks (2.3%)
+
+Best batch size distribution by model:
+  CNN:
+    64: 26 tasks (100.0%)
+  Caduceus:
+    128: 36 tasks (67.9%)
+    256: 17 tasks (32.1%)
+  HyenaDNA:
+    128: 27 tasks (50.0%)
+    256: 27 tasks (50.0%)
+  Mamba-bpe:
+    128: 25 tasks (58.1%)
+    256: 18 tasks (41.9%)
+  Mamba-char:
+    128: 29 tasks (67.4%)
+    256: 14 tasks (32.6%)
+
+Best rc_aug distribution by model:
+  CNN:
+    False: 26 tasks (100.0%)
+  Caduceus:
+    True: 39 tasks (73.6%)
+    False: 14 tasks (26.4%)
+  HyenaDNA:
+    True: 46 tasks (85.2%)
+    False: 8 tasks (14.8%)
+  Mamba-bpe:
+    True: 43 tasks (100.0%)
+  Mamba-char:
+    True: 43 tasks (100.0%)

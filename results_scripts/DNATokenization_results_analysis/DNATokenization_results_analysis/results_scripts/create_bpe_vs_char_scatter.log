@@ -1,0 +1,18 @@
+Creating BPE vs Char scatter plot...
+================================================================================
+Plotting Nucleotide Transformer Tasks: range 0.25 to 1
+Categories in Nucleotide Transformer Tasks: ['epigenetic marks' 'enhancers' 'promoters' 'splice sites']
+Plotting Genomic Benchmark: range 0.25 to 1
+Categories in Genomic Benchmark: ['organism' 'enhancers' 'regulatory']
+Plotting GUE: range 0.25 to 1
+Categories in GUE: ['virus variant detection' 'transcription factors' 'promoters'
+ 'splice sites']
+
+Scatter plot saved to: ../results_figures/bpevschar.pdf
+SVG version saved to: ../results_figures/bpevschar.svg
+
+Total tasks plotted: 44
+Tasks per benchmark:
+  NTv2: 18
+  GB: 8
+  GUE: 18

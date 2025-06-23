@@ -1,0 +1,254 @@
+Initial dataset: 11705 rows
+Found 225 failed hyperparameter combinations:
+  H2AFZ | Caduceus | lr=0.002 | batch_size=128 | rc_aug=False
+  H2AFZ | Caduceus | lr=0.002 | batch_size=256 | rc_aug=False
+  H2AFZ | Caduceus | lr=0.01 | batch_size=128 | rc_aug=False
+  H2AFZ | Caduceus | lr=0.01 | batch_size=256 | rc_aug=False
+  H3K27ac | Caduceus | lr=0.002 | batch_size=128 | rc_aug=False
+  H3K27ac | Caduceus | lr=0.002 | batch_size=256 | rc_aug=False
+  H3K27ac | Caduceus | lr=0.01 | batch_size=128 | rc_aug=False
+  H3K27ac | Caduceus | lr=0.01 | batch_size=256 | rc_aug=False
+  H3K27me3 | Caduceus | lr=0.002 | batch_size=128 | rc_aug=False
+  H3K27me3 | Caduceus | lr=0.002 | batch_size=256 | rc_aug=False
+  H3K27me3 | Caduceus | lr=0.01 | batch_size=128 | rc_aug=False
+  H3K27me3 | Caduceus | lr=0.01 | batch_size=256 | rc_aug=False
+  H3K36me3 | Caduceus | lr=0.002 | batch_size=128 | rc_aug=False
+  H3K36me3 | Caduceus | lr=0.002 | batch_size=256 | rc_aug=False
+  H3K36me3 | Caduceus | lr=0.01 | batch_size=128 | rc_aug=False
+  H3K36me3 | Caduceus | lr=0.01 | batch_size=256 | rc_aug=False
+  H3K4me1 | Caduceus | lr=0.002 | batch_size=128 | rc_aug=False
+  H3K4me1 | Caduceus | lr=0.002 | batch_size=256 | rc_aug=False
+  H3K4me1 | Caduceus | lr=0.01 | batch_size=128 | rc_aug=False
+  H3K4me1 | Caduceus | lr=0.01 | batch_size=256 | rc_aug=False
+  H3K4me2 | Caduceus | lr=0.002 | batch_size=128 | rc_aug=False
+  H3K4me2 | Caduceus | lr=0.002 | batch_size=256 | rc_aug=False
+  H3K4me2 | Caduceus | lr=0.01 | batch_size=128 | rc_aug=False
+  H3K4me2 | Caduceus | lr=0.01 | batch_size=256 | rc_aug=False
+  H3K4me3 | Caduceus | lr=0.002 | batch_size=128 | rc_aug=False
+  H3K4me3 | Caduceus | lr=0.002 | batch_size=256 | rc_aug=False
+  H3K4me3 | Caduceus | lr=0.01 | batch_size=256 | rc_aug=False
+  H3K9ac | Caduceus | lr=0.002 | batch_size=128 | rc_aug=False
+  H3K9ac | Caduceus | lr=0.002 | batch_size=256 | rc_aug=False
+  H3K9ac | Caduceus | lr=0.01 | batch_size=256 | rc_aug=False
+  H3K9me3 | Caduceus | lr=0.002 | batch_size=128 | rc_aug=False
+  H3K9me3 | Caduceus | lr=0.002 | batch_size=256 | rc_aug=False
+  H3K9me3 | Caduceus | lr=0.01 | batch_size=128 | rc_aug=False
+  H3K9me3 | Caduceus | lr=0.01 | batch_size=256 | rc_aug=False
+  H4K20me1 | Caduceus | lr=0.002 | batch_size=128 | rc_aug=False
+  H4K20me1 | Caduceus | lr=0.002 | batch_size=256 | rc_aug=False
+  H4K20me1 | Caduceus | lr=0.01 | batch_size=128 | rc_aug=False
+  H4K20me1 | Caduceus | lr=0.01 | batch_size=256 | rc_aug=False
+  demo_coding_vs_intergenomic_seqs | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  demo_coding_vs_intergenomic_seqs | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  demo_coding_vs_intergenomic_seqs | Mamba-char | lr=0.0001 | batch_size=128 | rc_aug=True
+  demo_coding_vs_intergenomic_seqs | Mamba-char | lr=0.0001 | batch_size=256 | rc_aug=True
+  demo_coding_vs_intergenomic_seqs | Mamba-char | lr=0.0002 | batch_size=128 | rc_aug=True
+  demo_coding_vs_intergenomic_seqs | Mamba-char | lr=0.0002 | batch_size=256 | rc_aug=True
+  demo_human_or_worm | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  demo_human_or_worm | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  demo_human_or_worm | Mamba-char | lr=0.0001 | batch_size=128 | rc_aug=True
+  demo_human_or_worm | Mamba-char | lr=0.0001 | batch_size=256 | rc_aug=True
+  demo_human_or_worm | Mamba-char | lr=0.0002 | batch_size=128 | rc_aug=True
+  demo_human_or_worm | Mamba-char | lr=0.0002 | batch_size=256 | rc_aug=True
+  dummy_mouse_enhancers_ensembl | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  dummy_mouse_enhancers_ensembl | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  dummy_mouse_enhancers_ensembl | Mamba-char | lr=0.0001 | batch_size=128 | rc_aug=True
+  dummy_mouse_enhancers_ensembl | Mamba-char | lr=0.0001 | batch_size=256 | rc_aug=True
+  dummy_mouse_enhancers_ensembl | Mamba-char | lr=0.0002 | batch_size=128 | rc_aug=True
+  dummy_mouse_enhancers_ensembl | Mamba-char | lr=0.0002 | batch_size=256 | rc_aug=True
+  emp_H3 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  emp_H3 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  emp_H3 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  emp_H3 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  emp_H3 | Mamba-char | lr=0.0001 | batch_size=128 | rc_aug=True
+  emp_H3 | Mamba-char | lr=0.0001 | batch_size=256 | rc_aug=True
+  emp_H3 | Mamba-char | lr=0.0002 | batch_size=128 | rc_aug=True
+  emp_H3 | Mamba-char | lr=0.0002 | batch_size=256 | rc_aug=True
+  emp_H3K14ac | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  emp_H3K14ac | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  emp_H3K14ac | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  emp_H3K14ac | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  emp_H3K36me3 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  emp_H3K36me3 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  emp_H3K36me3 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  emp_H3K36me3 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  emp_H3K4me1 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  emp_H3K4me1 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  emp_H3K4me1 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  emp_H3K4me1 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  emp_H3K4me2 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  emp_H3K4me2 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  emp_H3K4me2 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  emp_H3K4me2 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  emp_H3K4me3 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  emp_H3K4me3 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  emp_H3K4me3 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  emp_H3K4me3 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  emp_H3K79me3 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  emp_H3K79me3 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  emp_H3K79me3 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  emp_H3K79me3 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  emp_H3K9ac | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  emp_H3K9ac | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  emp_H3K9ac | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  emp_H3K9ac | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  emp_H4 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  emp_H4 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  emp_H4 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  emp_H4 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  emp_H4ac | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  emp_H4ac | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  emp_H4ac | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  emp_H4ac | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  human_enhancers_cohn | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  human_enhancers_cohn | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  human_enhancers_cohn | Mamba-char | lr=0.0001 | batch_size=128 | rc_aug=True
+  human_enhancers_cohn | Mamba-char | lr=0.0001 | batch_size=256 | rc_aug=True
+  human_enhancers_cohn | Mamba-char | lr=0.0002 | batch_size=128 | rc_aug=True
+  human_enhancers_cohn | Mamba-char | lr=0.0002 | batch_size=256 | rc_aug=True
+  human_enhancers_ensembl | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  human_enhancers_ensembl | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  human_enhancers_ensembl | Mamba-char | lr=0.0001 | batch_size=128 | rc_aug=True
+  human_enhancers_ensembl | Mamba-char | lr=0.0001 | batch_size=256 | rc_aug=True
+  human_enhancers_ensembl | Mamba-char | lr=0.0002 | batch_size=128 | rc_aug=True
+  human_enhancers_ensembl | Mamba-char | lr=0.0002 | batch_size=256 | rc_aug=True
+  human_ensembl_regulatory | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  human_ensembl_regulatory | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  human_ensembl_regulatory | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  human_ensembl_regulatory | Mamba-bpe | lr=0.0001 | batch_size=256 | rc_aug=True
+  human_ensembl_regulatory | Mamba-char | lr=0.0001 | batch_size=128 | rc_aug=True
+  human_ensembl_regulatory | Mamba-char | lr=0.0001 | batch_size=256 | rc_aug=True
+  human_ensembl_regulatory | Mamba-char | lr=0.0002 | batch_size=128 | rc_aug=True
+  human_ensembl_regulatory | Mamba-char | lr=0.0002 | batch_size=256 | rc_aug=True
+  human_nontata_promoters | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  human_nontata_promoters | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  human_nontata_promoters | Mamba-char | lr=0.0001 | batch_size=128 | rc_aug=True
+  human_nontata_promoters | Mamba-char | lr=0.0001 | batch_size=256 | rc_aug=True
+  human_nontata_promoters | Mamba-char | lr=0.0002 | batch_size=128 | rc_aug=True
+  human_nontata_promoters | Mamba-char | lr=0.0002 | batch_size=256 | rc_aug=True
+  human_ocr_ensembl | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  human_ocr_ensembl | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  human_ocr_ensembl | Mamba-char | lr=0.0001 | batch_size=128 | rc_aug=True
+  human_ocr_ensembl | Mamba-char | lr=0.0001 | batch_size=256 | rc_aug=True
+  human_ocr_ensembl | Mamba-char | lr=0.0002 | batch_size=128 | rc_aug=True
+  human_ocr_ensembl | Mamba-char | lr=0.0002 | batch_size=256 | rc_aug=True
+  human_tf_0 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  human_tf_0 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  human_tf_0 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  human_tf_0 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  human_tf_1 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  human_tf_1 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  human_tf_1 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  human_tf_1 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  human_tf_2 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  human_tf_2 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  human_tf_2 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  human_tf_2 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  human_tf_3 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  human_tf_3 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  human_tf_3 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  human_tf_3 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  human_tf_4 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  human_tf_4 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  human_tf_4 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  human_tf_4 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  mouse_0 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  mouse_0 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  mouse_0 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  mouse_0 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  mouse_1 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  mouse_1 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  mouse_1 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  mouse_1 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  mouse_2 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  mouse_2 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  mouse_2 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  mouse_2 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  mouse_2 | Mamba-char | lr=0.0001 | batch_size=128 | rc_aug=True
+  mouse_2 | Mamba-char | lr=0.0001 | batch_size=256 | rc_aug=True
+  mouse_2 | Mamba-char | lr=0.0002 | batch_size=256 | rc_aug=True
+  mouse_3 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  mouse_3 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  mouse_3 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  mouse_3 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  mouse_4 | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  mouse_4 | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  mouse_4 | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  mouse_4 | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  phage_fragments | Caduceus | lr=0.0001 | batch_size=128 | rc_aug=False
+  phage_fragments | Caduceus | lr=0.001 | batch_size=128 | rc_aug=False
+  phage_fragments | Caduceus | lr=0.001 | batch_size=256 | rc_aug=False
+  phage_fragments | Caduceus | lr=0.002 | batch_size=128 | rc_aug=False
+  phage_fragments | Caduceus | lr=0.002 | batch_size=256 | rc_aug=False
+  phage_fragments | Caduceus | lr=0.003 | batch_size=128 | rc_aug=False
+  prom_300_all | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  prom_300_all | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  prom_300_all | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  prom_300_all | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  prom_300_notata | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  prom_300_notata | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  prom_300_notata | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  prom_300_notata | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  prom_300_tata | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  prom_300_tata | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  prom_300_tata | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  prom_300_tata | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  prom_core_all | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  prom_core_all | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  prom_core_all | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  prom_core_all | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  prom_core_notata | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  prom_core_notata | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  prom_core_notata | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  prom_core_notata | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  prom_core_tata | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  prom_core_tata | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  prom_core_tata | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  prom_core_tata | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  splice_reconstructed | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  splice_reconstructed | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  splice_reconstructed | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  splice_reconstructed | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+  splice_sites_acceptors | Caduceus | lr=0.002 | batch_size=128 | rc_aug=False
+  splice_sites_acceptors | Caduceus | lr=0.002 | batch_size=256 | rc_aug=False
+  splice_sites_acceptors | Caduceus | lr=0.01 | batch_size=128 | rc_aug=False
+  splice_sites_acceptors | Caduceus | lr=0.01 | batch_size=256 | rc_aug=False
+  splice_sites_all | Caduceus | lr=0.002 | batch_size=128 | rc_aug=False
+  splice_sites_all | Caduceus | lr=0.002 | batch_size=256 | rc_aug=False
+  splice_sites_all | Caduceus | lr=0.01 | batch_size=128 | rc_aug=False
+  splice_sites_all | Caduceus | lr=0.01 | batch_size=256 | rc_aug=False
+  splice_sites_donors | Caduceus | lr=0.002 | batch_size=128 | rc_aug=False
+  splice_sites_donors | Caduceus | lr=0.002 | batch_size=256 | rc_aug=False
+  splice_sites_donors | Caduceus | lr=0.01 | batch_size=128 | rc_aug=False
+  splice_sites_donors | Caduceus | lr=0.01 | batch_size=256 | rc_aug=False
+  virus_covid | Mamba-bpe | lr=1e-05 | batch_size=128 | rc_aug=True
+  virus_covid | Mamba-bpe | lr=1e-05 | batch_size=256 | rc_aug=True
+  virus_covid | Mamba-bpe | lr=2e-05 | batch_size=128 | rc_aug=True
+  virus_covid | Mamba-bpe | lr=2e-05 | batch_size=256 | rc_aug=True
+
+Cleaned dataset: 9790 rows
+Removed 1915 rows from failed combinations
+
+Cleaned results saved to: /Users/leannmlindsey/Dropbox/NIH_WORK/TOKENIZATION/submission_06.11.2025/RESULTS/ss_results/combined_ss_results_cleaned.csv
+
+=== CLEANED DATA SUMMARY ===
+Tasks: 56
+Models: ['Mamba-bpe' 'Caduceus' 'CNN' 'HyenaDNA' 'Mamba-char']
+Learning rates: [np.float64(1e-05), np.float64(5e-05), np.float64(6e-05), np.float64(0.0001), np.float64(0.0002), np.float64(0.0003), np.float64(0.0005), np.float64(0.0006), np.float64(0.001), np.float64(0.002), np.float64(0.003), np.float64(0.006), np.float64(0.008), np.float64(0.01)]
+Batch sizes: [np.int64(64), np.int64(128), np.int64(256)]
+RC-aug values: [np.False_, np.True_]
+
+RC-aug distribution:
+  True: 7973 rows
+  False: 1817 rows
+
+Model mapping from run_name:
+  Mamba-bpe: 3053 rows
+  Mamba-char: 2845 rows
+  Caduceus: 1946 rows
+  HyenaDNA: 1868 rows
+  CNN: 78 rows
+
+Remaining NaN values:
+  Accuracy: 2750
+  MCC: 2750

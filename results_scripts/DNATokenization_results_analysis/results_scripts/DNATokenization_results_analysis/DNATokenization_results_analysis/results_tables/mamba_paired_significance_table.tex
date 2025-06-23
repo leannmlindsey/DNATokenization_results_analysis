@@ -1,0 +1,23 @@
+\begin{table}[]
+\begin{center}
+\scriptsize
+\caption{Paired Comparison of Character-Level vs. Byte Pair Encoding Tokenization on MCC Scores Across Different Genomic Features in a 4 layer Mamba-DNA Model (Matched by Seed)} \label{table:paired_statistical_tests}
+\begin{tabular}{@{}crlr@{}}
+\toprule
+\textbf{Category} & \textbf{t-statistic} & \textbf{p-value} & \textbf{\begin{tabular}[c]{@{}c@{}}Mean difference \\ (char - bpe)\end{tabular}} \\ \midrule
+enhancers & 0.3625 & 0.7189 & 0.0022 \\
+\rowcolor{teal!25}epigenetic marks & 3.3904 & 0.0012**† & 0.0106 \\
+organism & -0.4831 & 0.6345 & -0.0106 \\
+\rowcolor{teal!25}promoters & 5.3543 & 0.0000***† & 0.0204 \\
+regulatory & 1.9012 & 0.0705 & 0.0271 \\
+\rowcolor{teal!25}splice sites & 10.5873 & 0.0000***† & 0.2047 \\
+transcription factors & -1.6332 & 0.1057 & -0.0072 \\
+\rowcolor{magenta!25}virus variant detection & -7.1678 & 0.0001***† & -0.0726 \\
+\midrule
+\multicolumn{4}{l}{* p $< 0.05$, ** p $< 0.01$, *** p $< 0.001$} \\
+\multicolumn{4}{l}{† Bonferroni corrected ($\alpha = 0.0063$)} \\
+\multicolumn{4}{l}{\cellcolor{teal!25} Character tokenization superior (Bonferroni significant)} \\
+\multicolumn{4}{l}{\cellcolor{magenta!25} BPE tokenization superior (Bonferroni significant)}
+\end{tabular}
+\end{center}
+\end{table}

@@ -1,0 +1,129 @@
+Reading file: ../final_combined_ss_results/best_replicates_ss.csv
+
+Total valid Mamba rows: 1091
+Tasks with data: ['H2AFZ', 'H3K27ac', 'H3K27me3', 'H3K36me3', 'H3K4me1', 'H3K4me2', 'H3K4me3', 'H3K9ac', 'H3K9me3', 'H4K20me1', 'covid', 'demo_coding_vs_intergenomic', 'demo_human_or_worm', 'dummy_mouse_enhancers', 'enhancers', 'enhancers_types', 'human_enhancers_cohn', 'human_enhancers_ensembl', 'human_ensembl_regulatory', 'human_nontata_promoters', 'human_ocr_ensembl', 'mouse_0', 'mouse_1', 'mouse_2', 'mouse_3', 'mouse_4', 'prom_300_all', 'prom_300_notata', 'prom_300_tata', 'prom_core_all', 'prom_core_notata', 'prom_core_tata', 'promoter_all', 'promoter_no_tata', 'promoter_tata', 'reconstructed', 'splice_sites_acceptors', 'splice_sites_all', 'splice_sites_donors', 'tf_0', 'tf_1', 'tf_2', 'tf_3', 'tf_4']
+
+Tasks with paired data: 44
+
+================================================================================
+Paired T-test Results by Category (Matched by Seed)
+Bonferroni correction: α = 0.05 / 8 = 0.0063
+================================================================================
+
+Category: enhancers
+  Number of tasks: 5
+  Total paired observations: 41
+  Mean MCC (Mamba-char): 0.5481
+  Mean MCC (Mamba-bpe): 0.5459
+  Mean difference (char - bpe): 0.0022 ± 0.0387
+  t-statistic: 0.3625
+  p-value: 0.7189 (ns)
+
+Category: epigenetic marks
+  Number of tasks: 10
+  Total paired observations: 67
+  Mean MCC (Mamba-char): 0.4711
+  Mean MCC (Mamba-bpe): 0.4605
+  Mean difference (char - bpe): 0.0106 ± 0.0256
+  t-statistic: 3.3904
+  p-value: 0.0012 ** †
+  → Mamba-char significantly outperforms Mamba-bpe (Bonferroni significant)
+
+Category: organism
+  Number of tasks: 2
+  Total paired observations: 20
+  Mean MCC (Mamba-char): 0.8474
+  Mean MCC (Mamba-bpe): 0.8580
+  Mean difference (char - bpe): -0.0106 ± 0.0977
+  t-statistic: -0.4831
+  p-value: 0.6345 (ns)
+
+Category: promoters
+  Number of tasks: 9
+  Total paired observations: 83
+  Mean MCC (Mamba-char): 0.6778
+  Mean MCC (Mamba-bpe): 0.6574
+  Mean difference (char - bpe): 0.0204 ± 0.0348
+  t-statistic: 5.3543
+  p-value: 0.0000 *** †
+  → Mamba-char significantly outperforms Mamba-bpe (Bonferroni significant)
+
+Category: regulatory
+  Number of tasks: 3
+  Total paired observations: 23
+  Mean MCC (Mamba-char): 0.7648
+  Mean MCC (Mamba-bpe): 0.7377
+  Mean difference (char - bpe): 0.0271 ± 0.0685
+  t-statistic: 1.9012
+  p-value: 0.0705 (ns)
+
+Category: splice sites
+  Number of tasks: 4
+  Total paired observations: 33
+  Mean MCC (Mamba-char): 0.8399
+  Mean MCC (Mamba-bpe): 0.6352
+  Mean difference (char - bpe): 0.2047 ± 0.1111
+  t-statistic: 10.5873
+  p-value: 0.0000 *** †
+  → Mamba-char significantly outperforms Mamba-bpe (Bonferroni significant)
+
+Category: transcription factors
+  Number of tasks: 10
+  Total paired observations: 97
+  Mean MCC (Mamba-char): 0.6036
+  Mean MCC (Mamba-bpe): 0.6107
+  Mean difference (char - bpe): -0.0072 ± 0.0432
+  t-statistic: -1.6332
+  p-value: 0.1057 (ns)
+
+Category: virus variant detection
+  Number of tasks: 1
+  Total paired observations: 10
+  Mean MCC (Mamba-char): 0.5764
+  Mean MCC (Mamba-bpe): 0.6490
+  Mean difference (char - bpe): -0.0726 ± 0.0320
+  t-statistic: -7.1678
+  p-value: 0.0001 *** †
+  → Mamba-bpe significantly outperforms Mamba-char (Bonferroni significant)
+
+================================================================================
+Overall Paired Comparison (All Tasks)
+================================================================================
+Total paired observations: 374
+Mean MCC (Mamba-char): 0.6333
+Mean MCC (Mamba-bpe): 0.6113
+Mean difference (char - bpe): 0.0220 ± 0.0801
+t-statistic: 5.3238
+p-value: 0.0000 ***
+
+Results saved to: ../results_tables/mamba_paired_significance_tests.csv
+Task details saved to: ../results_tables/mamba_paired_task_details.csv
+
+================================================================================
+LaTeX Table Output
+================================================================================
+\begin{table}[]
+\begin{center}
+\scriptsize
+\caption{Paired Comparison of Character-Level vs. Byte Pair Encoding Tokenization on MCC Scores Across Different Genomic Features in a 4 layer Mamba-DNA Model (Matched by Seed)} \label{table:paired_statistical_tests}
+\begin{tabular}{@{}crlr@{}}
+\toprule
+\textbf{Category} & \textbf{t-statistic} & \textbf{p-value} & \textbf{\begin{tabular}[c]{@{}c@{}}Mean difference \\ (char - bpe)\end{tabular}} \\ \midrule
+enhancers & 0.3625 & 0.7189 & 0.0022 \\
+\rowcolor{teal!25}epigenetic marks & 3.3904 & 0.0012**† & 0.0106 \\
+organism & -0.4831 & 0.6345 & -0.0106 \\
+\rowcolor{teal!25}promoters & 5.3543 & 0.0000***† & 0.0204 \\
+regulatory & 1.9012 & 0.0705 & 0.0271 \\
+\rowcolor{teal!25}splice sites & 10.5873 & 0.0000***† & 0.2047 \\
+transcription factors & -1.6332 & 0.1057 & -0.0072 \\
+\rowcolor{magenta!25}virus variant detection & -7.1678 & 0.0001***† & -0.0726 \\
+\midrule
+\multicolumn{4}{l}{* p $< 0.05$, ** p $< 0.01$, *** p $< 0.001$} \\
+\multicolumn{4}{l}{† Bonferroni corrected ($\alpha = 0.0063$)} \\
+\multicolumn{4}{l}{\cellcolor{teal!25} Character tokenization superior (Bonferroni significant)} \\
+\multicolumn{4}{l}{\cellcolor{magenta!25} BPE tokenization superior (Bonferroni significant)}
+\end{tabular}
+\end{center}
+\end{table}
+
+LaTeX table saved to: ../results_tables/mamba_paired_significance_table.tex

@@ -1,0 +1,35 @@
+\begin{table*}[h!]
+\small
+\begin{center}
+\caption{Accuracy Scores on the GUE. The highest score for each dataset is highlighted in bold and underlined.}
+\label{table: GUE Results ACCURACY}
+\begin{tabular}{l|cc|ccc|cccc}
+\hline
+ & \textbf{\begin{tabular}[c]{@{}c@{}}CNN\n(char)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}GPT-2\n(bpe)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}DNABERT2\n(bpe)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Mamba\n(bpe)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}NT\n(blocked k-mer)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}DNABERT\n(k-mer)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}HyenaDNA\n(char)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Mamba\n(char)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Caduceus\n(char)\end{tabular}} \\ \hline
+Enhancers & 0.745 & 0.731 & 0.755 & 0.736 & {\ul \textbf{0.797}} & 0.761 & 0.752 & 0.737 & 0.745 \\
+Enhancers Types & 0.705 & 0.698 & 0.727 & 0.700 & {\ul \textbf{0.771}} & 0.728 & 0.718 & 0.708 & 0.714 \\
+Mouse 0 & - & 0.662 & 0.797 & 0.752 & 0.669 & 0.726 & 0.762 & 0.731 & {\ul \textbf{0.802}} \\
+Mouse 1 & - & 0.882 & 0.906 & 0.900 & 0.864 & 0.898 & 0.911 & 0.897 & {\ul \textbf{0.924}} \\
+Mouse 2 & - & 0.865 & 0.914 & 0.885 & 0.840 & 0.862 & 0.899 & - & {\ul \textbf{0.921}} \\
+Mouse 3 & - & 0.760 & 0.880 & 0.792 & 0.712 & 0.826 & 0.866 & 0.741 & {\ul \textbf{0.916}} \\
+Mouse 4 & - & 0.659 & 0.730 & 0.709 & 0.609 & 0.707 & 0.733 & 0.711 & {\ul \textbf{0.748}} \\
+Prom 300 All & - & 0.899 & 0.923 & 0.904 & 0.908 & {\ul \textbf{0.955}} & 0.912 & 0.909 & 0.910 \\
+Prom 300 Notata & - & 0.944 & {\ul \textbf{0.966}} & 0.955 & 0.927 & 0.964 & 0.959 & 0.958 & 0.964 \\
+Prom 300 Tata & - & 0.789 & 0.823 & 0.655 & - & {\ul \textbf{0.836}} & 0.732 & 0.667 & 0.788 \\
+Prom Core All & - & 0.815 & 0.816 & 0.798 & 0.771 & {\ul \textbf{0.853}} & 0.813 & 0.808 & 0.828 \\
+Prom Core Notata & - & 0.825 & 0.840 & 0.826 & 0.788 & {\ul \textbf{0.854}} & 0.832 & 0.827 & 0.839 \\
+Prom Core Tata & - & 0.832 & 0.870 & 0.711 & 0.860 & {\ul \textbf{0.882}} & 0.732 & 0.768 & 0.815 \\
+Reconstructed & - & 0.835 & {\ul \textbf{0.910}} & - & - & 0.906 & - & - & - \\
+Splice Sites Acceptors & 0.964 & 0.868 & 0.904 & 0.802 & {\ul \textbf{0.985}} & 0.979 & 0.944 & 0.951 & 0.937 \\
+Splice Sites All & 0.951 & 0.831 & 0.903 & 0.803 & {\ul \textbf{0.978}} & 0.974 & 0.939 & 0.953 & 0.941 \\
+Splice Sites Donors & 0.976 & 0.874 & 0.915 & 0.797 & {\ul \textbf{0.986}} & 0.983 & 0.963 & 0.965 & 0.940 \\
+Tf 0 & - & 0.821 & 0.829 & - & 0.777 & {\ul \textbf{0.830}} & - & - & - \\
+Tf 1 & - & 0.833 & {\ul \textbf{0.856}} & - & 0.799 & 0.849 & - & - & - \\
+Tf 2 & - & 0.761 & {\ul \textbf{0.825}} & - & 0.719 & 0.823 & - & - & - \\
+Tf 3 & - & 0.686 & {\ul \textbf{0.790}} & - & 0.649 & 0.773 & - & - & - \\
+Tf 4 & - & 0.826 & {\ul \textbf{0.880}} & - & 0.785 & 0.867 & - & - & - \\
+\hline
+ & \multicolumn{2}{l|}{\textit{baseline}} & \multicolumn{3}{c|}{\textit{Sub-word Tokenization}} & \multicolumn{4}{c}{\textit{Nucleotide Level Tokenization}} \\ \hline
+\end{tabular}
+\end{center}
+\end{table*}

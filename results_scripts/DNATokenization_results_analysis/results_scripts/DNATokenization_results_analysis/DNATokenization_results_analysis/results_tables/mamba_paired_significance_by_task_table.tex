@@ -1,0 +1,82 @@
+\begin{table}[]
+\begin{center}
+\scriptsize
+\caption{Task-Level Paired Comparison of Character-Level vs. Byte Pair Encoding Tokenization on MCC Scores in a 4 layer Mamba-DNA Model (Matched by Seed)} \label{table:paired_task_tests}
+\begin{tabular}{@{}lcrlr@{}}
+\toprule
+\textbf{Task} & \textbf{n} & \textbf{t-stat} & \textbf{p-value} & \textbf{\begin{tabular}[c]{@{}c@{}}Mean diff \\ (char - bpe)\end{tabular}} \\ \midrule
+\multicolumn{5}{c}{\textbf{Enhancers}} \\
+\midrule
+dummy mouse enhancers & 10 & 0.895 & 0.394 & 0.016 \\
+enhancers & 10 & 0.586 & 0.572 & 0.002 \\
+enhancers types & 3 & 1.107 & 0.384 & 0.014 \\
+human enhancers cohn & 10 & -1.902 & 0.090 & -0.006 \\
+human enhancers ensembl & 8 & -0.429 & 0.681 & -0.009 \\
+\midrule
+\multicolumn{5}{c}{\textbf{Epigenetic Marks}} \\
+\midrule
+H2AFZ & 7 & -1.850 & 0.114 & -0.012 \\
+H3K27ac & 6 & 4.097 & 0.009** & 0.036 \\
+H3K27me3 & 7 & 0.131 & 0.900 & 0.000 \\
+H3K36me3 & 7 & 0.031 & 0.976 & 0.000 \\
+H3K4me1 & 7 & 1.991 & 0.094 & 0.004 \\
+H3K4me2 & 6 & -1.823 & 0.128 & -0.020 \\
+H3K4me3 & 7 & 1.351 & 0.225 & 0.011 \\
+\rowcolor{teal!25}H3K9ac & 7 & 6.090 & 0.001***† & 0.039 \\
+H3K9me3 & 7 & 2.801 & 0.031* & 0.030 \\
+H4K20me1 & 6 & 3.758 & 0.013* & 0.016 \\
+\midrule
+\multicolumn{5}{c}{\textbf{Organism}} \\
+\midrule
+coding vs intergenomic & 10 & -0.664 & 0.523 & -0.029 \\
+human or worm & 10 & 3.848 & 0.004** & 0.008 \\
+\midrule
+\multicolumn{5}{c}{\textbf{Promoters}} \\
+\midrule
+prom 300 all & 10 & 4.172 & 0.002** & 0.009 \\
+prom 300 notata & 10 & 3.309 & 0.009** & 0.005 \\
+prom 300 tata & 10 & 1.413 & 0.191 & 0.023 \\
+\rowcolor{teal!25}prom core all & 10 & 5.813 & 0.000***† & 0.021 \\
+prom core notata & 10 & 1.172 & 0.271 & 0.003 \\
+prom core tata & 3 & 5.506 & 0.031* & 0.114 \\
+promoter all & 10 & 2.576 & 0.030* & 0.015 \\
+promoter no tata & 10 & 1.361 & 0.207 & 0.005 \\
+promoter tata & 10 & 3.830 & 0.004** & 0.055 \\
+\midrule
+\multicolumn{5}{c}{\textbf{Regulatory}} \\
+\midrule
+human ensembl regulatory & 3 & -10.335 & 0.009** & -0.121 \\
+human nontata promoters & 10 & 4.347 & 0.002** & 0.014 \\
+\rowcolor{teal!25}human ocr ensembl & 10 & 57.650 & 0.000***† & 0.085 \\
+\midrule
+\multicolumn{5}{c}{\textbf{Splice Sites}} \\
+\midrule
+\rowcolor{teal!25}reconstructed & 10 & 6.034 & 0.000***† & 0.051 \\
+\rowcolor{teal!25}splice sites acceptors & 10 & 35.000 & 0.000***† & 0.306 \\
+\rowcolor{teal!25}splice sites all & 10 & 38.313 & 0.000***† & 0.227 \\
+splice sites donors & 3 & 11.629 & 0.007** & 0.307 \\
+\midrule
+\multicolumn{5}{c}{\textbf{Transcription Factors}} \\
+\midrule
+\rowcolor{magenta!25}mouse tfp 0 & 10 & -10.253 & 0.000***† & -0.037 \\
+mouse tfp 1 & 10 & -3.525 & 0.006** & -0.006 \\
+\rowcolor{magenta!25}mouse tfp 2 & 7 & -9.048 & 0.000***† & -0.061 \\
+\rowcolor{magenta!25}mouse tfp 3 & 10 & -5.847 & 0.000***† & -0.083 \\
+mouse tfp 4 & 10 & 0.899 & 0.392 & 0.006 \\
+\rowcolor{teal!25}human tfp 0 & 10 & 4.766 & 0.001**† & 0.024 \\
+human tfp 1 & 10 & 1.251 & 0.243 & 0.008 \\
+\rowcolor{teal!25}human tfp 2 & 10 & 5.016 & 0.001***† & 0.042 \\
+human tfp 3 & 10 & 1.101 & 0.300 & 0.010 \\
+human tfp 4 & 10 & 1.363 & 0.206 & 0.009 \\
+\midrule
+\multicolumn{5}{c}{\textbf{Virus Variant Detection}} \\
+\midrule
+\rowcolor{magenta!25}virus covid & 10 & -7.168 & 0.000***† & -0.073 \\
+\bottomrule
+\multicolumn{5}{l}{* p $< 0.05$, ** p $< 0.01$, *** p $< 0.001$} \\
+\multicolumn{5}{l}{† Bonferroni corrected ($\alpha = 0.0011$)} \\
+\multicolumn{5}{l}{\cellcolor{teal!25} Character tokenization superior (Bonferroni significant)} \\
+\multicolumn{5}{l}{\cellcolor{magenta!25} BPE tokenization superior (Bonferroni significant)}
+\end{tabular}
+\end{center}
+\end{table}

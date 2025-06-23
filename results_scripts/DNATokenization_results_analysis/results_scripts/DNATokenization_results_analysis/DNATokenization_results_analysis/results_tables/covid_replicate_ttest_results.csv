@@ -1,0 +1,2 @@
+task,n_replicates_bpe,n_replicates_char,mean_mcc_bpe,std_mcc_bpe,mean_mcc_char,std_mcc_char,mean_difference,t_statistic,p_value,cohens_d,test_type,significant
+covid,23,18,,,,,,,,0,Unpaired (Independent samples),No

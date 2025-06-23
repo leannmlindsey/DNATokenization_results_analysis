@@ -1,0 +1,31 @@
+\begin{table*}[h!]
+\small
+\begin{center}
+\caption{Accuracy Scores on the GUE. The highest score for each dataset is highlighted in bold and underlined.}
+\label{table: GUE Results ACCURACY}
+\begin{tabular}{l|cc|ccc|cccc}
+\hline
+ & \textbf{\begin{tabular}[c]{@{}c@{}}CNN\\ (char)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}GPT-2\\ (bpe)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}DNABERT2\\ (bpe)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Mamba\\ (bpe)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}NT\\ (blocked k-mer)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}DNABERT\\ (k-mer)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}HyenaDNA\\ (char)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Mamba\\ (char)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Caduceus\\ (char)\end{tabular}} \\ \hline
+prom\_core\_all & - & 0.815 & 0.816 & 0.798 & 0.771 & {\ul \textbf{0.853}} & 0.813 & 0.808 & 0.828 \\
+prom\_core\_notata & - & 0.825 & 0.840 & 0.826 & 0.788 & {\ul \textbf{0.854}} & 0.832 & 0.827 & 0.839 \\
+prom\_core\_tata & - & 0.832 & 0.870 & 0.711 & 0.860 & {\ul \textbf{0.882}} & 0.732 & 0.768 & 0.815 \\
+prom\_300\_all & - & 0.899 & 0.923 & 0.904 & 0.908 & {\ul \textbf{0.955}} & 0.912 & 0.909 & 0.910 \\
+prom\_300\_notata & - & 0.944 & {\ul \textbf{0.966}} & 0.955 & 0.927 & 0.964 & 0.959 & 0.958 & 0.964 \\
+prom\_300\_tata & - & 0.789 & 0.823 & 0.655 & - & {\ul \textbf{0.836}} & 0.732 & 0.667 & 0.788 \\
+human\_tfp\_0 & - & 0.821 & 0.829 & 0.815 & 0.777 & 0.830 & 0.830 & 0.830 & {\ul \textbf{0.832}} \\
+human\_tfp\_1 & - & 0.833 & 0.856 & 0.836 & 0.799 & 0.849 & 0.848 & 0.840 & {\ul \textbf{0.859}} \\
+human\_tfp\_2 & - & 0.761 & 0.825 & 0.782 & 0.719 & 0.823 & 0.833 & 0.802 & {\ul \textbf{0.856}} \\
+human\_tfp\_3 & - & 0.686 & {\ul \textbf{0.790}} & 0.736 & 0.649 & 0.773 & 0.757 & 0.739 & 0.779 \\
+human\_tfp\_4 & - & 0.826 & 0.880 & 0.848 & 0.785 & 0.867 & 0.874 & 0.851 & {\ul \textbf{0.899}} \\
+mouse\_tfp\_0 & - & 0.662 & 0.797 & 0.752 & 0.669 & 0.726 & 0.760 & 0.731 & {\ul \textbf{0.802}} \\
+mouse\_tfp\_1 & - & 0.882 & 0.906 & 0.900 & 0.864 & 0.898 & 0.911 & 0.897 & {\ul \textbf{0.924}} \\
+mouse\_tfp\_2 & - & 0.865 & 0.914 & 0.885 & 0.840 & 0.862 & 0.899 & 0.858 & {\ul \textbf{0.921}} \\
+mouse\_tfp\_3 & - & 0.760 & 0.880 & 0.792 & 0.712 & 0.826 & 0.866 & 0.741 & {\ul \textbf{0.916}} \\
+mouse\_tfp\_4 & - & 0.659 & 0.730 & 0.709 & 0.609 & 0.707 & 0.733 & 0.711 & {\ul \textbf{0.748}} \\
+virus\_covid & - & 0.601 & 0.470 & {\ul \textbf{0.691}} & 0.233 & 0.456 & 0.663 & 0.625 & 0.161 \\
+splice\_reconstructed & - & 0.835 & {\ul \textbf{0.910}} & 0.776 & - & 0.906 & 0.895 & 0.804 & 0.883 \\
+\hline
+\multicolumn{1}{l|}{} & \multicolumn{2}{c|}{\textit{baseline}} & \multicolumn{3}{c|}{\textit{Sub-word Tokenization}} & \multicolumn{4}{c}{\textit{Nucleotide Level Tokenization}} \\ \hline
+\end{tabular}
+\end{center}
+\end{table*}

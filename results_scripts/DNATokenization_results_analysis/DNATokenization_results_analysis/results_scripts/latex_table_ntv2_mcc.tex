@@ -1,0 +1,27 @@
+\begin{table*}[h!]
+\small
+\begin{center}
+\caption{MCC Scores on the Nucleotide Transformer (revised). The highest score for each dataset is highlighted in bold and underlined.}
+\label{table: NTv2 Results MCC}
+\begin{tabular}{l|cc|ccc|cccc}
+\hline
+ & \textbf{\begin{tabular}[c]{@{}c@{}}CNN\n(char)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}GPT-2\n(bpe)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}DNABERT2\n(bpe)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Mamba\n(bpe)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}NT\n(blocked k-mer)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}DNABERT\n(k-mer)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}HyenaDNA\n(char)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Mamba\n(char)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Caduceus\n(char)\end{tabular}} \\ \hline
+H2Afz & 0.455 & 0.483 & 0.525 & 0.405 & {\ul \textbf{0.526}} & 0.504 & 0.413 & 0.392 & 0.432 \\
+H3K27Ac & 0.409 & 0.445 & 0.500 & 0.392 & {\ul \textbf{0.504}} & 0.455 & 0.421 & 0.418 & 0.467 \\
+H3K27Me3 & 0.509 & 0.555 & 0.609 & 0.530 & {\ul \textbf{0.619}} & 0.568 & 0.542 & 0.535 & 0.551 \\
+H3K36Me3 & 0.540 & 0.539 & 0.627 & 0.489 & {\ul \textbf{0.662}} & 0.572 & 0.504 & 0.487 & 0.531 \\
+H3K4Me1 & 0.406 & 0.431 & 0.506 & 0.406 & {\ul \textbf{0.513}} & 0.467 & 0.403 & 0.405 & 0.429 \\
+H3K4Me2 & 0.487 & 0.534 & {\ul \textbf{0.575}} & 0.471 & 0.562 & 0.536 & 0.477 & 0.458 & 0.485 \\
+H3K4Me3 & 0.581 & 0.581 & 0.634 & 0.601 & {\ul \textbf{0.644}} & 0.616 & 0.635 & 0.606 & 0.627 \\
+H3K9Ac & 0.503 & 0.495 & 0.555 & 0.477 & {\ul \textbf{0.556}} & 0.504 & 0.508 & 0.502 & 0.512 \\
+H3K9Me3 & 0.344 & 0.388 & 0.495 & 0.290 & {\ul \textbf{0.499}} & 0.433 & 0.370 & 0.338 & 0.395 \\
+H4K20Me1 & 0.560 & 0.588 & 0.657 & 0.545 & {\ul \textbf{0.674}} & 0.609 & 0.574 & 0.560 & 0.589 \\
+Covid & - & {\ul \textbf{0.549}} & 0.401 & - & 0.135 & 0.389 & - & - & - \\
+Promoter All & 0.735 & 0.704 & 0.758 & 0.698 & {\ul \textbf{0.785}} & 0.728 & 0.726 & 0.711 & 0.721 \\
+Promoter No Tata & 0.731 & 0.738 & 0.761 & 0.727 & {\ul \textbf{0.793}} & 0.740 & 0.745 & 0.733 & 0.739 \\
+Promoter Tata & {\ul \textbf{0.888}} & 0.784 & 0.858 & 0.621 & 0.885 & 0.834 & 0.837 & 0.676 & 0.838 \\
+\hline
+ & \multicolumn{2}{l|}{\textit{baseline}} & \multicolumn{3}{c|}{\textit{Sub-word Tokenization}} & \multicolumn{4}{c}{\textit{Nucleotide Level Tokenization}} \\ \hline
+\end{tabular}
+\end{center}
+\end{table*}
