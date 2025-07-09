@@ -1,13 +1,24 @@
 # Data Processing Pipeline Documentation
 
 ## Overview
-This document describes the complete data processing pipeline for analyzing attention and state space model results. The pipeline consists of 12 sequential steps organized into three main phases.
+This repository contains the data processing pipeline to reproduce all of the figures, tables and results in the paper:
+
+[![bioRxiv](https://img.shields.io/badge/bioRxiv-2024.09.09.612081-red)](https://doi.org/10.1101/2024.09.09.612081)
 
 ## Pipeline Execution
 **Main Script**: `run_pipeline.sh`
-- Executes all steps in sequence
-- Creates output directories as needed
-- Provides progress tracking
+Step 1: Combines attention CSV result files
+Step 2: Finds best hyperparameters for attention models
+Step 3: Cleans state space results
+Step 4: Finds best hyperparameters for state space models
+Step 5: Creates hyperparameter LaTeX tables for the Supplementary Material (Tables 2-6)
+Step 6: Creates NaN heatmap for the Supplementary Material (Figure 2)
+Step 7: Creates results LaTeX tables for the Supplementary Material (Tables 7-11)
+Step 8: Creates category summary table (Table 2)
+Step 9: Creates MCC heatmap (Figure 2)
+Step 10: Creates BPE vs Char scatter plot (Figure 3)
+Step 11: Calculates paired statistical significance for Mamba models (matched by seed) (Table 4)
+Step 12: Calculates paired statistical significance for Mamba models by individual task (Table 3)
 
 ## Detailed Pipeline Steps
 
@@ -26,7 +37,6 @@ This document describes the complete data processing pipeline for analyzing atte
 **Processing**:
 - Standardizes model names (e.g., 'DNABERT2_repeated' → 'DNABERT2')
 - Standardizes benchmark names (e.g., 'GB_repeated' → 'GB')
-- Filters out specific models and tasks
 - Combines all data into single DataFrame
 
 **Output Files**:
@@ -279,12 +289,6 @@ results_figures/
 - hyenadna_repeated → HyenaDNA
 - nt_repeated → NT-500M-human
 - nt_v2_repeated → NT-v2-500M
-
-### Task Name Standardization
-- demo_coding_vs_intergenomic_seqs → demo_coding_vs_intergenomic
-- dummy_mouse_enhancers_ensembl → dummy_mouse_enhancers
-- virus_covid → covid
-- human_tf_X → tf_X
 
 ### Benchmark Categories
 - **GB**: Genomic Benchmarks
