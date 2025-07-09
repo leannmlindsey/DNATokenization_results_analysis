@@ -1,0 +1,9 @@
+Creating MCC heatmap...
+================================================================================
+Heatmap saved to: ../results_figures/Horizontal_Heatmap.pdf
+SVG version saved to: ../results_figures/Horizontal_Heatmap.svg
+
+Heatmap created with 44 tasks and 9 models
+MCC range: 0.128 to 0.973
+
+Included benchmarks: GB, GUE, NTv2 (excluding NTv1 emp_ tasks and phage_fragments)

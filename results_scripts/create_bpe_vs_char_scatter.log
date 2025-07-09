@@ -1,0 +1,37 @@
+Creating BPE vs Char scatter plot...
+================================================================================
+Plotting Nucleotide Transformer Tasks: range 0.25 to 1
+Categories in Nucleotide Transformer Tasks: ['epigenetic marks' 'enhancers' 'promoters' 'splice sites']
+Plotting Genomic Benchmark: range 0.25 to 1
+Categories in Genomic Benchmark: ['coding' 'taxonomic' 'enhancers' 'regulatory']
+Plotting GUE: range 0.25 to 1
+Categories in GUE: ['virus variant' 'transcription factors' 'promoters' 'splice sites']
+
+Scatter plot saved to: ../results_figures/bpevschar.pdf
+SVG version saved to: ../results_figures/bpevschar.svg
+
+Total tasks plotted: 44
+Tasks per benchmark:
+  NTv2: 18
+  GB: 8
+  GUE: 18
+
+================================================================================
+MAXIMUM MEAN DIFFERENCES BETWEEN MAMBA-CHAR AND MAMBA-BPE:
+================================================================================
+
+Maximum MCC difference:
+  Task: splice_sites_donors
+  Benchmark: NTv2
+  Mamba-char MCC: 0.9195
+  Mamba-bpe MCC: 0.5976
+  Difference (char - bpe): 0.3219
+  --> Mamba-char performs better by 0.3219
+
+Maximum Accuracy difference:
+  Task: splice_sites_donors
+  Mamba-char Accuracy: 0.9597
+  Mamba-bpe Accuracy: 0.7971
+  Difference (char - bpe): 0.1626
+  --> Mamba-char performs better by 0.1626
+================================================================================

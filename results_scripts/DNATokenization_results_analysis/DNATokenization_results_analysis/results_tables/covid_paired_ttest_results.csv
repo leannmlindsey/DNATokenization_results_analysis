@@ -1,2 +1,0 @@
-task,n_paired_observations,mean_mcc_bpe,mean_mcc_char,mean_difference,std_difference,se_difference,ci_lower,ci_upper,t_statistic,p_value,cohens_d,test_type,significant
-covid,10,0.6490121722221375,0.5764164566993714,-0.07259571552276611,0.03202770406656812,0.010128049307619232,-0.09550695480973645,-0.04968447623579577,-7.16778851660537,5.263695263364699e-05,-2.266653749887261,Paired (matched by seed),Yes

@@ -97,10 +97,11 @@ def calculate_mamba_significance_paired():
         "splice_sites_acceptors": "splice sites",
         "splice_sites_donors": "splice sites",
         "reconstructed": "splice sites",
-        # Organism Classification
-        "demo_coding_vs_intergenomic": "organism",
-        "demo_coding_vs_intergenomic_seqs": "organism",
-        "demo_human_or_worm": "organism",
+        # Coding vs Non-coding
+        "demo_coding_vs_intergenomic": "coding",
+        "demo_coding_vs_intergenomic_seqs": "coding",
+        # Taxonomic Classification
+        "demo_human_or_worm": "taxonomic",
         # Virus Variant Detection
         "covid": "virus variant detection"
     }

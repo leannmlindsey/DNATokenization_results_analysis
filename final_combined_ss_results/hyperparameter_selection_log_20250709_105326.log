@@ -1,0 +1,464 @@
+2025-07-09 10:53:26,998 - INFO - Starting hyperparameter selection for state space models
+2025-07-09 10:53:27,012 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,013 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,013 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,013 - WARNING -     MCC: 0.4552 ± 0.0025
+2025-07-09 10:53:27,019 - WARNING -   Caduceus: No combinations with >= 10 replicates found. Using 9 combinations with >= 3 replicates
+2025-07-09 10:53:27,021 - WARNING -   Caduceus: Best hyperparameter combination has only 7 replicates (< 10)
+2025-07-09 10:53:27,021 - WARNING -     Best params: lr=0.0001, batch_size=128, rc_aug=True
+2025-07-09 10:53:27,021 - WARNING -     MCC: 0.4316 ± 0.0035
+2025-07-09 10:53:27,033 - INFO -   HyenaDNA: Found 2 combinations with >= 10 replicates
+2025-07-09 10:53:27,046 - INFO -   Mamba-bpe: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,055 - INFO -   Mamba-char: Found 3 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,068 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,069 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,069 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,069 - WARNING -     MCC: 0.4093 ± 0.0093
+2025-07-09 10:53:27,074 - WARNING -   Caduceus: No combinations with >= 10 replicates found. Using 10 combinations with >= 3 replicates
+2025-07-09 10:53:27,074 - WARNING -   Caduceus: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,074 - WARNING -     Best params: lr=0.001, batch_size=128, rc_aug=False
+2025-07-09 10:53:27,074 - WARNING -     MCC: 0.4674 ± 0.0323
+2025-07-09 10:53:27,086 - INFO -   HyenaDNA: Found 3 combinations with >= 10 replicates
+2025-07-09 10:53:27,099 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,108 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,121 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,121 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,121 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,121 - WARNING -     MCC: 0.5088 ± 0.0010
+2025-07-09 10:53:27,126 - WARNING -   Caduceus: No combinations with >= 10 replicates found. Using 9 combinations with >= 3 replicates
+2025-07-09 10:53:27,127 - WARNING -   Caduceus: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,127 - WARNING -     Best params: lr=0.001, batch_size=128, rc_aug=False
+2025-07-09 10:53:27,127 - WARNING -     MCC: 0.5506 ± 0.0072
+2025-07-09 10:53:27,138 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:27,150 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,159 - INFO -   Mamba-char: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,172 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,172 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,172 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,172 - WARNING -     MCC: 0.5398 ± 0.0091
+2025-07-09 10:53:27,178 - WARNING -   Caduceus: No combinations with >= 10 replicates found. Using 9 combinations with >= 3 replicates
+2025-07-09 10:53:27,178 - WARNING -   Caduceus: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,181 - WARNING -     Best params: lr=0.001, batch_size=256, rc_aug=False
+2025-07-09 10:53:27,182 - WARNING -     MCC: 0.5306 ± 0.0179
+2025-07-09 10:53:27,197 - INFO -   HyenaDNA: Found 2 combinations with >= 10 replicates
+2025-07-09 10:53:27,209 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,219 - INFO -   Mamba-char: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,233 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,237 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,237 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,237 - WARNING -     MCC: 0.4058 ± 0.0097
+2025-07-09 10:53:27,242 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:27,254 - INFO -   HyenaDNA: Found 2 combinations with >= 10 replicates
+2025-07-09 10:53:27,266 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,275 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,288 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,288 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,288 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,288 - WARNING -     MCC: 0.4871 ± 0.0159
+2025-07-09 10:53:27,293 - WARNING -   Caduceus: No combinations with >= 10 replicates found. Using 9 combinations with >= 3 replicates
+2025-07-09 10:53:27,294 - WARNING -   Caduceus: Best hyperparameter combination has only 7 replicates (< 10)
+2025-07-09 10:53:27,294 - WARNING -     Best params: lr=0.001, batch_size=128, rc_aug=True
+2025-07-09 10:53:27,294 - WARNING -     MCC: 0.4848 ± 0.0196
+2025-07-09 10:53:27,305 - INFO -   HyenaDNA: Found 2 combinations with >= 10 replicates
+2025-07-09 10:53:27,317 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,326 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,339 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,339 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,339 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,339 - WARNING -     MCC: 0.5812 ± 0.0165
+2025-07-09 10:53:27,344 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:27,357 - INFO -   HyenaDNA: Found 3 combinations with >= 10 replicates
+2025-07-09 10:53:27,369 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,378 - INFO -   Mamba-char: Found 3 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,391 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,391 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,391 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,391 - WARNING -     MCC: 0.5034 ± 0.0160
+2025-07-09 10:53:27,396 - WARNING -   Caduceus: No combinations with >= 10 replicates found. Using 9 combinations with >= 3 replicates
+2025-07-09 10:53:27,396 - WARNING -   Caduceus: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,397 - WARNING -     Best params: lr=0.0001, batch_size=256, rc_aug=False
+2025-07-09 10:53:27,397 - WARNING -     MCC: 0.5122 ± 0.0039
+2025-07-09 10:53:27,408 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:27,421 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,429 - INFO -   Mamba-char: Found 3 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,442 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,442 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,442 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,442 - WARNING -     MCC: 0.3444 ± 0.0301
+2025-07-09 10:53:27,448 - WARNING -   Caduceus: No combinations with >= 10 replicates found. Using 9 combinations with >= 3 replicates
+2025-07-09 10:53:27,448 - WARNING -   Caduceus: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,448 - WARNING -     Best params: lr=0.001, batch_size=256, rc_aug=False
+2025-07-09 10:53:27,448 - WARNING -     MCC: 0.3950 ± 0.0215
+2025-07-09 10:53:27,459 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:27,475 - INFO -   Mamba-bpe: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,484 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,496 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,496 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,496 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,496 - WARNING -     MCC: 0.5604 ± 0.0115
+2025-07-09 10:53:27,502 - WARNING -   Caduceus: No combinations with >= 10 replicates found. Using 11 combinations with >= 3 replicates
+2025-07-09 10:53:27,502 - WARNING -   Caduceus: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,502 - WARNING -     Best params: lr=0.001, batch_size=128, rc_aug=False
+2025-07-09 10:53:27,502 - WARNING -     MCC: 0.5893 ± 0.0059
+2025-07-09 10:53:27,514 - INFO -   HyenaDNA: Found 2 combinations with >= 10 replicates
+2025-07-09 10:53:27,527 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,536 - INFO -   Mamba-char: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,548 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,548 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:27,548 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,548 - WARNING -     MCC: 0.1281 ± 0.0048
+2025-07-09 10:53:27,554 - WARNING -   Caduceus: No combinations with >= 10 replicates found. Using 15 combinations with >= 3 replicates
+2025-07-09 10:53:27,554 - WARNING -   Caduceus: Best hyperparameter combination has only 4 replicates (< 10)
+2025-07-09 10:53:27,554 - WARNING -     Best params: lr=0.0003, batch_size=128, rc_aug=False
+2025-07-09 10:53:27,554 - WARNING -     MCC: 0.6304 ± 0.0150
+2025-07-09 10:53:27,569 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:27,577 - INFO -   Mamba-bpe: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,586 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,595 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,595 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:27,595 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,595 - WARNING -     MCC: 0.7840 ± 0.0065
+2025-07-09 10:53:27,600 - INFO -   Caduceus: Found 2 combinations with >= 10 replicates
+2025-07-09 10:53:27,612 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:27,622 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,631 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,639 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,639 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:27,639 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,639 - WARNING -     MCC: 0.8838 ± 0.0020
+2025-07-09 10:53:27,645 - INFO -   Caduceus: Found 2 combinations with >= 10 replicates
+2025-07-09 10:53:27,656 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:27,666 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,675 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,683 - ERROR -   Mamba-bpe: SKIPPING - No hyperparameter combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,687 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,687 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:27,687 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,687 - WARNING -     MCC: 0.4326 ± 0.0643
+2025-07-09 10:53:27,693 - INFO -   Caduceus: Found 2 combinations with >= 10 replicates
+2025-07-09 10:53:27,705 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:27,714 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,723 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,732 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,732 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,732 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,732 - WARNING -     MCC: 0.5012 ± 0.0137
+2025-07-09 10:53:27,738 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:27,752 - INFO -   HyenaDNA: Found 2 combinations with >= 10 replicates
+2025-07-09 10:53:27,764 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,773 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,781 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,782 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:27,782 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,782 - WARNING -     MCC: 0.4423 ± 0.0070
+2025-07-09 10:53:27,787 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:27,801 - INFO -   HyenaDNA: Found 3 combinations with >= 10 replicates
+2025-07-09 10:53:27,813 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,821 - INFO -   Mamba-char: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,830 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,830 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:27,830 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,830 - WARNING -     MCC: 0.4088 ± 0.0143
+2025-07-09 10:53:27,836 - INFO -   Caduceus: Found 2 combinations with >= 10 replicates
+2025-07-09 10:53:27,847 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:27,857 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,866 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,874 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,874 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:27,874 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,874 - WARNING -     MCC: 0.5488 ± 0.0413
+2025-07-09 10:53:27,880 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:27,892 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:27,902 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,911 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,919 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,919 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:27,919 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,919 - WARNING -     MCC: 0.8012 ± 0.0028
+2025-07-09 10:53:27,926 - WARNING -   Caduceus: No combinations with >= 10 replicates found. Using 2 combinations with >= 3 replicates
+2025-07-09 10:53:27,926 - WARNING -   Caduceus: Best hyperparameter combination has only 6 replicates (< 10)
+2025-07-09 10:53:27,927 - WARNING -     Best params: lr=0.0005, batch_size=128, rc_aug=False
+2025-07-09 10:53:27,927 - WARNING -     MCC: 0.8071 ± 0.0081
+2025-07-09 10:53:27,941 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:27,953 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,961 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:27,970 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:27,970 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:27,970 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:27,970 - WARNING -     MCC: 0.7210 ± 0.0078
+2025-07-09 10:53:27,976 - INFO -   Caduceus: Found 2 combinations with >= 10 replicates
+2025-07-09 10:53:27,989 - INFO -   HyenaDNA: Found 2 combinations with >= 10 replicates
+2025-07-09 10:53:27,999 - INFO -   Mamba-bpe: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,008 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,016 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,017 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:28,017 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,017 - WARNING -     MCC: 0.3929 ± 0.0175
+2025-07-09 10:53:28,023 - WARNING -   Caduceus: No combinations with >= 10 replicates found. Using 7 combinations with >= 3 replicates
+2025-07-09 10:53:28,023 - WARNING -   Caduceus: Best hyperparameter combination has only 7 replicates (< 10)
+2025-07-09 10:53:28,023 - WARNING -     Best params: lr=0.001, batch_size=128, rc_aug=False
+2025-07-09 10:53:28,023 - WARNING -     MCC: 0.6351 ± 0.0062
+2025-07-09 10:53:28,036 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,047 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,056 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,065 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,065 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:28,065 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,065 - WARNING -     MCC: 0.2940 ± 0.0291
+2025-07-09 10:53:28,071 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,083 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,091 - INFO -   Mamba-bpe: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,100 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,109 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,109 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:28,109 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,109 - WARNING -     MCC: 0.6370 ± 0.0081
+2025-07-09 10:53:28,114 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,126 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,135 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,143 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,152 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,152 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:28,152 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,152 - WARNING -     MCC: 0.5742 ± 0.0228
+2025-07-09 10:53:28,158 - WARNING -   Caduceus: No combinations with >= 10 replicates found. Using 10 combinations with >= 3 replicates
+2025-07-09 10:53:28,158 - WARNING -   Caduceus: Best hyperparameter combination has only 7 replicates (< 10)
+2025-07-09 10:53:28,158 - WARNING -     Best params: lr=0.002, batch_size=128, rc_aug=True
+2025-07-09 10:53:28,158 - WARNING -     MCC: 0.8449 ± 0.0167
+2025-07-09 10:53:28,170 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,178 - INFO -   Mamba-bpe: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,187 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,192 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,192 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:28,192 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,192 - WARNING -     MCC: 0.3855 ± 0.0744
+2025-07-09 10:53:28,198 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,209 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,218 - INFO -   Mamba-bpe: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,227 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,236 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,236 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:28,236 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,236 - WARNING -     MCC: 0.3079 ± 0.0062
+2025-07-09 10:53:28,241 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,253 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,262 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,270 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,279 - WARNING -   HyenaDNA: No combinations with >= 10 replicates found. Using 2 combinations with >= 3 replicates
+2025-07-09 10:53:28,279 - WARNING -   HyenaDNA: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:28,279 - WARNING -     Best params: lr=0.003, batch_size=128, rc_aug=True
+2025-07-09 10:53:28,279 - WARNING -     MCC: 0.4521 ± 0.1039
+2025-07-09 10:53:28,285 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,285 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:28,285 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,285 - WARNING -     MCC: 0.8068 ± 0.0077
+2025-07-09 10:53:28,290 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,303 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,311 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,319 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,328 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,328 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:28,328 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,328 - WARNING -     MCC: 0.8725 ± 0.0046
+2025-07-09 10:53:28,334 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,346 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,354 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,363 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,371 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,371 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:28,372 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,372 - WARNING -     MCC: 0.7118 ± 0.0296
+2025-07-09 10:53:28,377 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,389 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,397 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,405 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,414 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,414 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:28,414 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,414 - WARNING -     MCC: 0.6170 ± 0.0106
+2025-07-09 10:53:28,420 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,432 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,440 - INFO -   Mamba-bpe: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,449 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,458 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,458 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:28,458 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,458 - WARNING -     MCC: 0.6159 ± 0.0160
+2025-07-09 10:53:28,463 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,475 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,484 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,492 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,501 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,501 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:28,501 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,501 - WARNING -     MCC: 0.7611 ± 0.0161
+2025-07-09 10:53:28,506 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,519 - INFO -   HyenaDNA: Found 2 combinations with >= 10 replicates
+2025-07-09 10:53:28,528 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,536 - INFO -   Mamba-char: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,545 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,545 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:28,545 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,545 - WARNING -     MCC: 0.7350 ± 0.0133
+2025-07-09 10:53:28,551 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,564 - INFO -   HyenaDNA: Found 3 combinations with >= 10 replicates
+2025-07-09 10:53:28,576 - INFO -   Mamba-bpe: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,585 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,593 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,594 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:28,594 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,594 - WARNING -     MCC: 0.7311 ± 0.0186
+2025-07-09 10:53:28,599 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,613 - INFO -   HyenaDNA: Found 3 combinations with >= 10 replicates
+2025-07-09 10:53:28,625 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,633 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,642 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,642 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:28,642 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,642 - WARNING -     MCC: 0.8875 ± 0.0260
+2025-07-09 10:53:28,648 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,661 - INFO -   HyenaDNA: Found 3 combinations with >= 10 replicates
+2025-07-09 10:53:28,673 - INFO -   Mamba-bpe: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,682 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,690 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,691 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:28,691 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,691 - WARNING -     MCC: 0.7658 ± 0.0081
+2025-07-09 10:53:28,696 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,704 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,713 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,721 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,730 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,730 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:28,730 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,730 - WARNING -     MCC: 0.9277 ± 0.0050
+2025-07-09 10:53:28,735 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,746 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,758 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,767 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,775 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,775 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:28,775 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,775 - WARNING -     MCC: 0.9268 ± 0.0020
+2025-07-09 10:53:28,780 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,791 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,804 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,812 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,821 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,821 - WARNING -   CNN: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:28,821 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,821 - WARNING -     MCC: 0.9529 ± 0.0054
+2025-07-09 10:53:28,826 - WARNING -   Caduceus: No combinations with >= 10 replicates found. Using 9 combinations with >= 3 replicates
+2025-07-09 10:53:28,826 - WARNING -   Caduceus: Best hyperparameter combination has only 3 replicates (< 10)
+2025-07-09 10:53:28,826 - WARNING -     Best params: lr=0.001, batch_size=256, rc_aug=False
+2025-07-09 10:53:28,826 - WARNING -     MCC: 0.8799 ± 0.0164
+2025-07-09 10:53:28,837 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,850 - INFO -   Mamba-bpe: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,858 - INFO -   Mamba-char: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,867 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,867 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:28,867 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,867 - WARNING -     MCC: 0.5824 ± 0.0127
+2025-07-09 10:53:28,872 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,884 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,893 - INFO -   Mamba-bpe: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,902 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,911 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,911 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:28,911 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,911 - WARNING -     MCC: 0.6433 ± 0.0167
+2025-07-09 10:53:28,916 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,930 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,941 - INFO -   Mamba-bpe: Found 3 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,951 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,960 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:28,960 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:28,960 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:28,960 - WARNING -     MCC: 0.5422 ± 0.0288
+2025-07-09 10:53:28,965 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,977 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:28,986 - INFO -   Mamba-bpe: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:28,995 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:29,004 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:29,004 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:29,004 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:29,004 - WARNING -     MCC: 0.3574 ± 0.0121
+2025-07-09 10:53:29,009 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:29,021 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:29,029 - INFO -   Mamba-bpe: Found 3 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:29,039 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:29,047 - WARNING -   CNN: No combinations with >= 10 replicates found. Using 1 combinations with >= 3 replicates
+2025-07-09 10:53:29,047 - WARNING -   CNN: Best hyperparameter combination has only 5 replicates (< 10)
+2025-07-09 10:53:29,047 - WARNING -     Best params: lr=0.001, batch_size=64, rc_aug=False
+2025-07-09 10:53:29,047 - WARNING -     MCC: 0.6391 ± 0.0114
+2025-07-09 10:53:29,052 - INFO -   Caduceus: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:29,064 - INFO -   HyenaDNA: Found 1 combinations with >= 10 replicates
+2025-07-09 10:53:29,073 - INFO -   Mamba-bpe: Found 2 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:29,082 - INFO -   Mamba-char: Found 1 combinations with >= 10 replicates (required for Mamba models)
+2025-07-09 10:53:29,125 - INFO - 
+Results saved to: ../final_combined_ss_results/best_hyperparameters_by_task_ss.csv
+2025-07-09 10:53:29,125 - INFO - Best replicates saved to: ../final_combined_ss_results/best_replicates_ss.csv
+2025-07-09 10:53:29,125 - INFO - NaN analysis saved to: ../final_combined_ss_results/ss_nan_analysis.csv
+2025-07-09 10:53:29,125 - INFO - All hyperparameters analysis saved to: ../final_combined_ss_results/all_hyperparameters_analysis_ss.csv
+2025-07-09 10:53:29,125 - INFO - Total best replicates: 2239
+2025-07-09 10:53:29,125 - INFO - Log file saved to: ../final_combined_ss_results/hyperparameter_selection_log_20250709_105326.log
+2025-07-09 10:53:29,126 - WARNING - 
+58 task-model combinations have < 10 replicates:
+2025-07-09 10:53:29,127 - WARNING -   CNN on H2AFZ: 3 replicates
+2025-07-09 10:53:29,127 - WARNING -   Caduceus on H2AFZ: 7 replicates
+2025-07-09 10:53:29,127 - WARNING -   CNN on H3K27ac: 3 replicates
+2025-07-09 10:53:29,127 - WARNING -   Caduceus on H3K27ac: 3 replicates
+2025-07-09 10:53:29,127 - WARNING -   CNN on H3K27me3: 3 replicates
+2025-07-09 10:53:29,127 - WARNING -   Caduceus on H3K27me3: 3 replicates
+2025-07-09 10:53:29,127 - WARNING -   CNN on H3K36me3: 3 replicates
+2025-07-09 10:53:29,127 - WARNING -   Caduceus on H3K36me3: 3 replicates
+2025-07-09 10:53:29,127 - WARNING -   CNN on H3K4me1: 3 replicates
+2025-07-09 10:53:29,127 - WARNING -   CNN on H3K4me2: 3 replicates
+2025-07-09 10:53:29,127 - WARNING -   Caduceus on H3K4me2: 7 replicates
+2025-07-09 10:53:29,127 - WARNING -   CNN on H3K4me3: 3 replicates
+2025-07-09 10:53:29,127 - WARNING -   CNN on H3K9ac: 3 replicates
+2025-07-09 10:53:29,127 - WARNING -   Caduceus on H3K9ac: 3 replicates
+2025-07-09 10:53:29,127 - WARNING -   CNN on H3K9me3: 3 replicates
+2025-07-09 10:53:29,127 - WARNING -   Caduceus on H3K9me3: 3 replicates
+2025-07-09 10:53:29,127 - WARNING -   CNN on H4K20me1: 3 replicates
+2025-07-09 10:53:29,127 - WARNING -   Caduceus on H4K20me1: 3 replicates
+2025-07-09 10:53:29,127 - WARNING -   CNN on covid: 5 replicates
+2025-07-09 10:53:29,127 - WARNING -   Caduceus on covid: 4 replicates
+2025-07-09 10:53:29,127 - WARNING -   CNN on demo_coding_vs_intergenomic: 5 replicates
+2025-07-09 10:53:29,127 - WARNING -   CNN on demo_human_or_worm: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on dummy_mouse_enhancers: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on enhancers: 3 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on enhancers_types: 3 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on human_enhancers_cohn: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on human_enhancers_ensembl: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on human_ensembl_regulatory: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   Caduceus on human_ensembl_regulatory: 6 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on human_nontata_promoters: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on human_ocr_ensembl: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   Caduceus on human_ocr_ensembl: 7 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on mouse_0: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on mouse_1: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on mouse_2: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   Caduceus on mouse_2: 7 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on mouse_3: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on mouse_4: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   HyenaDNA on phage_fragments: 3 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on prom_300_all: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on prom_300_notata: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on prom_300_tata: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on prom_core_all: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on prom_core_notata: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on prom_core_tata: 5 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on promoter_all: 3 replicates
+2025-07-09 10:53:29,128 - WARNING -   CNN on promoter_no_tata: 3 replicates
+2025-07-09 10:53:29,129 - WARNING -   CNN on promoter_tata: 3 replicates
+2025-07-09 10:53:29,129 - WARNING -   CNN on reconstructed: 5 replicates
+2025-07-09 10:53:29,129 - WARNING -   CNN on splice_sites_acceptors: 3 replicates
+2025-07-09 10:53:29,129 - WARNING -   CNN on splice_sites_all: 3 replicates
+2025-07-09 10:53:29,129 - WARNING -   CNN on splice_sites_donors: 3 replicates
+2025-07-09 10:53:29,129 - WARNING -   Caduceus on splice_sites_donors: 3 replicates
+2025-07-09 10:53:29,129 - WARNING -   CNN on tf_0: 5 replicates
+2025-07-09 10:53:29,129 - WARNING -   CNN on tf_1: 5 replicates
+2025-07-09 10:53:29,129 - WARNING -   CNN on tf_2: 5 replicates
+2025-07-09 10:53:29,129 - WARNING -   CNN on tf_3: 5 replicates
+2025-07-09 10:53:29,129 - WARNING -   CNN on tf_4: 5 replicates
