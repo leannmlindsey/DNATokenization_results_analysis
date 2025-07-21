@@ -8,7 +8,7 @@ def find_best_hyperparameters():
     """
     
     # Read the combined results
-    df = pd.read_csv('../final_combined_attn_results/combined_all_results_06.11.2025.csv')
+    df = pd.read_csv('../final_combined_attn_results/combined_attn_results_cleaned.csv')
     
     # Standardize task names
     df['task'] = df['task'].replace({

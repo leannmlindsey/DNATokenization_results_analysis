@@ -9,7 +9,7 @@ This repository contains the data processing pipeline to reproduce all of the fi
 **Main Script**: `run_pipeline.sh`
 
 This pipeline assumes the cleaned datasets are already available in:
-- `final_combined_attn_results/combined_all_results_06.11.2025.csv`
+- `final_combined_attn_results/combined_attn_results_cleaned.csv`
 - `final_combined_ss_results/combined_ss_results_cleaned.csv`
 
 Step 1: Finds best hyperparameters for attention models
@@ -31,7 +31,7 @@ Step 10: Calculates paired statistical significance for Mamba models by individu
 **Script**: `attn_scripts/find_best_hyperparameters.py`
 
 **Input Files**:
-- `final_combined_attn_results/combined_all_results_06.11.2025.csv`
+- `final_combined_attn_results/combined_attn_results_cleaned.csv`
 
 **Processing**:
 - Groups by task, model, learning_rate, and epoch

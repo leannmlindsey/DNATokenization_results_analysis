@@ -3,15 +3,15 @@
 # Master pipeline script to run all analysis steps in order
 # 
 # PREREQUISITE: The following cleaned datasets must be present:
-#   - final_combined_attn_results/combined_all_results_06.11.2025.csv
+#   - final_combined_attn_results/combined_attn_results_cleaned.csv
 #   - final_combined_ss_results/combined_ss_results_cleaned.csv
 
 echo "Starting tokenization analysis pipeline..."
 echo "========================================"
 
 # Check for prerequisite files
-if [ ! -f "final_combined_attn_results/combined_all_results_06.11.2025.csv" ]; then
-    echo "Error: Required file final_combined_attn_results/combined_all_results_06.11.2025.csv not found!"
+if [ ! -f "final_combined_attn_results/combined_attn_results_cleaned.csv" ]; then
+    echo "Error: Required file final_combined_attn_results/combined_attn_results_cleaned.csv not found!"
     exit 1
 fi
 
