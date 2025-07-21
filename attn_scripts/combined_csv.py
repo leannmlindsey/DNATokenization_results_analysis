@@ -9,8 +9,8 @@ def combine_csv_files():
     
     # Read the CSV files
     print("Reading CSV files...")
-    df1 = pd.read_csv('../attn_results/combined_results_repeated_07.01.2025.csv')
-    df2 = pd.read_csv('../attn_results/combined_results_orig_07.07.2025.csv')
+    df1 = pd.read_csv('../attn_results/combined_results_repeated_07.21.2025.csv')
+    df2 = pd.read_csv('../attn_results/combined_results_orig_07.21.2025.csv')
     df3 = pd.read_csv('../attn_results/anisa_finetune_results_with_lr_06.11.2025.csv')
     df4 = pd.read_csv('../attn_results/covid_repeated.csv')
     df5 = pd.read_csv('../attn_results/dnabert1_bridges_gb_anisa_replicates.csv')
@@ -26,8 +26,8 @@ def combine_csv_files():
     print(f"File 5 shape: {df5.shape}")
     
     # Add source identifier to track which file each row came from
-    df1['source_file'] = 'combined_results_repeated_07.01.2025.csv'
-    df2['source_file'] = 'combined_results_orig_07.07.2025.csv'
+    df1['source_file'] = 'combined_results_repeated_07.21.2025.csv'
+    df2['source_file'] = 'combined_results_orig_07.21.2025.csv'
     df3['source_file'] = 'anisa_finetune_results_with_lr_06.11.2025.csv'
     df4['source_file'] = 'covid_repeated.csv'
     df5['source_file'] = 'dnabert1_bridges_gb_anisa_replicates.csv'
