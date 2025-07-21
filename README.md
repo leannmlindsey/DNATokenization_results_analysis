@@ -13,15 +13,25 @@ This pipeline assumes the cleaned datasets are already available in:
 - `final_combined_ss_results/combined_ss_results_cleaned.csv`
 
 Step 1: Finds best hyperparameters for attention models
+
 Step 2: Finds best hyperparameters for state space models
+
 Step 3: Creates hyperparameter LaTeX tables for the Supplementary Material (Tables 2-6)
+
 Step 4: Creates NaN heatmap for the Supplementary Material (Figure 2)
+
 Step 5: Creates results LaTeX tables for the Supplementary Material (Tables 7-11)
+
 Step 6: Creates category summary table (Table 2)
+
 Step 7: Creates MCC heatmap (Figure 2)
+
 Step 8: Creates BPE vs Char scatter plot (Figure 3)
+
 Step 9: Calculates paired statistical significance for Mamba models (matched by seed) (Table 4)
+
 Step 10: Calculates paired statistical significance for Mamba models by individual task (Table 3)
+
 
 ## Detailed Pipeline Steps
 
