@@ -5,6 +5,8 @@ This repository contains the data processing pipeline to reproduce all of the fi
 
 [![bioRxiv](https://img.shields.io/badge/bioRxiv-2024.09.09.612081-red)](https://doi.org/10.1101/2024.09.09.612081)
 
+This branch includes all of the cleaning of the data from the various datasources, while the main branch starts from an already cleaned dataset.
+
 ## Pipeline Execution
 **Main Script**: `run_pipeline.sh`
 Step 1: Combines attention CSV result files
@@ -28,8 +30,8 @@ Step 12: Calculates paired statistical significance for Mamba models by individu
 **Script**: `attn_scripts/combined_csv.py`
 
 **Input Files**:
-- `combined_results_repeated_07.01.2025.csv`
-- `combined_results_orig_07.07.2025.csv`
+- `combined_results_repeated_07.21.2025.csv`
+- `combined_results_orig_07.21.2025.csv`
 - `anisa_finetune_results_with_lr_06.11.2025.csv`
 - `covid_repeated.csv`
 - `dnabert1_bridges_gb_anisa_replicates.csv`
