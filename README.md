@@ -7,44 +7,27 @@ This repository contains the data processing pipeline to reproduce all of the fi
 
 ## Pipeline Execution
 **Main Script**: `run_pipeline.sh`
-Step 1: Combines attention CSV result files
-Step 2: Finds best hyperparameters for attention models
-Step 3: Cleans state space results
-Step 4: Finds best hyperparameters for state space models
-Step 5: Creates hyperparameter LaTeX tables for the Supplementary Material (Tables 2-6)
-Step 6: Creates NaN heatmap for the Supplementary Material (Figure 2)
-Step 7: Creates results LaTeX tables for the Supplementary Material (Tables 7-11)
-Step 8: Creates category summary table (Table 2)
-Step 9: Creates MCC heatmap (Figure 2)
-Step 10: Creates BPE vs Char scatter plot (Figure 3)
-Step 11: Calculates paired statistical significance for Mamba models (matched by seed) (Table 4)
-Step 12: Calculates paired statistical significance for Mamba models by individual task (Table 3)
+
+This pipeline assumes the cleaned datasets are already available in:
+- `final_combined_attn_results/combined_all_results_06.11.2025.csv`
+- `final_combined_ss_results/combined_ss_results_cleaned.csv`
+
+Step 1: Finds best hyperparameters for attention models
+Step 2: Finds best hyperparameters for state space models
+Step 3: Creates hyperparameter LaTeX tables for the Supplementary Material (Tables 2-6)
+Step 4: Creates NaN heatmap for the Supplementary Material (Figure 2)
+Step 5: Creates results LaTeX tables for the Supplementary Material (Tables 7-11)
+Step 6: Creates category summary table (Table 2)
+Step 7: Creates MCC heatmap (Figure 2)
+Step 8: Creates BPE vs Char scatter plot (Figure 3)
+Step 9: Calculates paired statistical significance for Mamba models (matched by seed) (Table 4)
+Step 10: Calculates paired statistical significance for Mamba models by individual task (Table 3)
 
 ## Detailed Pipeline Steps
 
 ### Phase 1: Attention Model Processing
 
-#### Step 1: Combine Attention Model Results
-**Script**: `attn_scripts/combined_csv.py`
-
-**Input Files**:
-- `combined_results_repeated_07.01.2025.csv`
-- `combined_results_orig_07.07.2025.csv`
-- `anisa_finetune_results_with_lr_06.11.2025.csv`
-- `covid_repeated.csv`
-- `dnabert1_bridges_gb_anisa_replicates.csv`
-
-**Processing**:
-- Standardizes model names (e.g., 'DNABERT2_repeated' → 'DNABERT2')
-- Standardizes benchmark names (e.g., 'GB_repeated' → 'GB')
-- Combines all data into single DataFrame
-
-**Output Files**:
-- `final_combined_attn_results/combined_all_results_06.11.2025.csv`
-
----
-
-#### Step 2: Find Best Hyperparameters for Attention Models
+#### Step 1: Find Best Hyperparameters for Attention Models
 **Script**: `attn_scripts/find_best_hyperparameters.py`
 
 **Input Files**:
@@ -65,24 +48,7 @@ Step 12: Calculates paired statistical significance for Mamba models by individu
 
 ### Phase 2: State Space Model Processing
 
-#### Step 3: Clean State Space Results
-**Script**: `ss_scripts/clean_ss_results.py`
-
-**Input Files**:
-- `RESULTS_06.11.2025_SS.csv`
-
-**Processing**:
-- Maps run_name to model names (Caduceus, HyenaDNA, Mamba-char, Mamba-bpe, CNN)
-- Extracts rc_aug parameter from run_name
-- Removes combinations where all seeds failed (NaN values)
-- Standardizes column names and data types
-
-**Output Files**:
-- `final_combined_ss_results/combined_ss_results_cleaned.csv`
-
----
-
-#### Step 4: Find Best Hyperparameters for State Space Models
+#### Step 2: Find Best Hyperparameters for State Space Models
 **Script**: `ss_scripts/find_best_hyperparameters_ss.py`
 
 **Input Files**:
@@ -103,7 +69,7 @@ Step 12: Calculates paired statistical significance for Mamba models by individu
 
 ---
 
-#### Step 5: Create Hyperparameter LaTeX Tables
+#### Step 3: Create Hyperparameter LaTeX Tables
 **Script**: `ss_scripts/create_hp_latex_tables.py`
 
 **Input Files**:
@@ -118,7 +84,7 @@ Step 12: Calculates paired statistical significance for Mamba models by individu
 
 ---
 
-#### Step 6: Create NaN Heatmap
+#### Step 4: Create NaN Heatmap
 **Script**: `ss_scripts/create_nan_heatmap.py`
 
 **Input Files**:
@@ -136,7 +102,7 @@ Step 12: Calculates paired statistical significance for Mamba models by individu
 
 ### Phase 3: Combined Results Analysis
 
-#### Step 7: Create Results LaTeX Tables
+#### Step 5: Create Results LaTeX Tables
 **Script**: `results_scripts/create_results_latex_tables.py`
 
 **Input Files**:
@@ -159,7 +125,7 @@ Step 12: Calculates paired statistical significance for Mamba models by individu
 
 ---
 
-#### Step 8: Create Category Summary Table
+#### Step 6: Create Category Summary Table
 **Script**: `results_scripts/create_category_summary_table.py`
 
 **Input Files**:
@@ -176,7 +142,7 @@ Step 12: Calculates paired statistical significance for Mamba models by individu
 
 ---
 
-#### Step 9: Create MCC Heatmap
+#### Step 7: Create MCC Heatmap
 **Script**: `results_scripts/create_mcc_heatmap.py`
 
 **Input Files**:
@@ -193,7 +159,7 @@ Step 12: Calculates paired statistical significance for Mamba models by individu
 
 ---
 
-#### Step 10: Create BPE vs Character Scatter Plot
+#### Step 8: Create BPE vs Character Scatter Plot
 **Script**: `results_scripts/create_bpe_vs_char_scatter.py`
 
 **Input Files**:
@@ -209,7 +175,7 @@ Step 12: Calculates paired statistical significance for Mamba models by individu
 
 ---
 
-#### Step 11: Calculate Mamba Significance (Overall)
+#### Step 9: Calculate Mamba Significance (Overall)
 **Script**: `results_scripts/calculate_mamba_significance_paired.py`
 
 **Input Files**:
@@ -227,7 +193,7 @@ Step 12: Calculates paired statistical significance for Mamba models by individu
 
 ---
 
-#### Step 12: Calculate Mamba Significance (By Task)
+#### Step 10: Calculate Mamba Significance (By Task)
 **Script**: `results_scripts/calculate_mamba_significance_paired_by_task.py`
 
 **Input Files**:
